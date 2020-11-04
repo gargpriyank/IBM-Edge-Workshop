@@ -1,8 +1,13 @@
 #! /bin/bash
 
-tar -zxvf ibm-eam-4.1.0-x86_64.tar.gz && cd /root/ibm-eam-4.1.0-x86_64
-mkdir -p /opt/common-services-3.2.7/ibm-eam-4.1.0-licenses && cp /root/ibm-eam-4.1.0-x86_64/ibm-eam-4.1.0-licenses.zip /opt/common-services-3.2.7/ibm-eam-4.1.0-licenses && chmod -R 777 /opt/common-services-3.2.7 && chmod -R 777 /opt/common-services-3.2.7/ibm-eam-4.1.0-licenses
+export IEAM_PACKAGE_FILE_NAME_NO_EXT=${IEAM_PACKAGE_FILE_NAME%%.*}
+tar -zxvf /root/Workspace/$IEAM_PACKAGE_FILE_NAME -C /root/Workspace && cd /root/Workspace/$IEAM_PACKAGE_FILE_NAME_NO_EXT
+
 : '
+mkdir -p /opt/common-services-3.2.7/ibm-eam-4.1.0-licenses && cp /root/Workspace/$IEAM_PACKAGE_FILE_NAME_NO_EXT/ibm-eam-4.1.0-licenses.zip \
+/opt/common-services-3.2.7/ibm-eam-4.1.0-licenses && chmod -R 777 /opt/common-services-3.2.7 \
+&& chmod -R 777 /opt/common-services-3.2.7/ibm-eam-4.1.0-licenses
+
 systemctl enable docker
 systemctl start docker
 tar -zvxf common-services-boeblingen-2004-x86_64.tar.gz -O | sudo docker load

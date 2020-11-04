@@ -1,4 +1,4 @@
-# Infrastructure as Code example 2
+# Provision OpenShift Classic 
 
 This directory contains the terraform code to provision Red Hat OpenShift Classic, IBM Cloudant database, IBM Event Streams (Kafka), Bare Metal
 Server and Virtual Server. This code provides the flexibility to keep IBM Cloudant database (enable_db_service) 
