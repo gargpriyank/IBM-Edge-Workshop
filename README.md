@@ -13,13 +13,18 @@ The computation in edge computing is either largely or entirely performed on dis
 that needs to be closer to the source of the action where distributed systems technology interacts with the physical world. 
 Although it may interact with a centralized cloud, edge computing doesn’t need contact with a centralized cloud.
 
+## Content
+
+This repository contains the terraform code to provision Red Hat OpenShift Classic cluster, IBM Cloudant database, 
+IBM Event Streams (Kafka), Bare Metal Server, Virtual Server, IBM Cloudant database, 
+and IBM Event Streams (enable_event_streams_service). 
+This repository will deploy the IBM Edge Application Manager and provide the guidance to deploy edge application.
+
+Below is the typical network architecture of the IBM Edge components produced by this repository code.
+
 ![Network Architecture](https://github.com/gargpriyank/iac-ibm-openshift-ieam/blob/main/images/NetworkArchitecture.png)
 
 ## Provision OpenShift Classic cluster
-
-This directory contains the terraform code to provision Red Hat OpenShift Classic, IBM Cloudant database, IBM Event Streams (Kafka), Bare Metal
-Server and Virtual Server. This code provides the flexibility to keep IBM Cloudant database (enable_db_service) 
-and IBM Event Streams (enable_event_streams_service) optional and can be set as false to not to provision it.
 
 - [General Requirements](#general-requirements)
 - [How to use with Terraform](#how-to-use-with-terraform)
@@ -199,7 +204,7 @@ Execute the below Schematics commands:
 # Create workspace:
 ibmcloud schematics workspace list
 ibmcloud schematics workspace new --file workspace-dev.json #Create dev environment workspace.
-ibmcloud schematics workspace list          # Identify the WORKSPACE_ID
+ibmcloud schematics workspace list          # Identify the workspace_ID
 
 # Create plan: 
 ibmcloud schematics plan --id $WORKSPACE_ID  # Identify the Activity_ID
@@ -254,3 +259,40 @@ oc get pods -A
 ```
 
 ## Deploy IBM Edge Application Manager
+
+1) Retrieve and copy the [entitlement key](https://myibm.ibm.com/products-services/containerlibrary) to set the environment 
+variable `IBM_CP_ENTITLEMENT_KEY`.
+
+```bash
+export IBM_CP_ENTITLEMENT_KEY=<Your_IBM_Cloud_Pak_Entitlement_Key>
+```
+
+2) Login to your local linux/mac box with admin privileges. Create `workspace` directory in your local linux/mac box. 
+Download **iac-ibm-openshift-ieam** repository code and execute the shell script `ieam-deploy.sh`. 
+This will deploy the Common Services and IEAM and create IEAM hub.
+
+```bash
+mkdir <your_home_dir>/workspace
+cd <your_home_dir>/workspace
+git clone https://github.com/gargpriyank/iac-ibm-openshift-ieam.git
+cd iac-ibm-openshift-ieam/script
+chmod +x *.sh
+./script/ieam-deploy.sh
+```
+
+3) After the above script is executed successfully, run below command and make sure that all the pods are either in **Running** or **Completed
+** status.
+
+```bash
+oc get pods -n ibm-common-services
+```
+
+4) Download the IBM Edge Application Manager Agent package 
+from [IBM Passport Advantage](https://www.ibm.com/support/knowledgecenter/SSFKVV_4.2/hub/part_numbers.html?view=kc) 
+or [IBM Internal DSW](https://w3-03.ibm.com/software/xl/download/ticket.wss) (for IBMers only) and save it in the directory 
+`<your_home_dir/workspace`. Set the environment variable `IEAM_PACKAGE_FILE_NAME` with the downloaded file name and extract the installation media.
+
+```bash
+export IEAM_PACKAGE_FILE_NAME=<downloaded_file_name>
+
+```

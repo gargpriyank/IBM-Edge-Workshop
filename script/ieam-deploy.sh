@@ -6,7 +6,7 @@ oc apply -f ieam-deploy/ibm-operator-common-services-catalog.yaml
 
 oc new-project ibm-edge
 
-oc create secret docker-registry ibm-entitlement-key --docker-server=cp.icr.io --docker-username=cp --docker-password=$ENTITLEMENT_KEY
+oc create secret docker-registry ibm-entitlement-key --docker-server=cp.icr.io --docker-username=cp --docker-password=$IBM_CP_ENTITLEMENT_KEY
 
 oc get packagemanifests -n openshift-marketplace | grep ibm-eam
 
