@@ -15,7 +15,7 @@ Although it may interact with a centralized cloud, edge computing doesn’t need
 
 ![Network Architecture](https://github.com/gargpriyank/iac-ibm-openshift-ieam/blob/main/images/NetworkArchitecture.png)
 
-## Provision OpenShift Classic 
+## Provision OpenShift Classic cluster
 
 This directory contains the terraform code to provision Red Hat OpenShift Classic, IBM Cloudant database, IBM Event Streams (Kafka), Bare Metal
 Server and Virtual Server. This code provides the flexibility to keep IBM Cloudant database (enable_db_service) 
