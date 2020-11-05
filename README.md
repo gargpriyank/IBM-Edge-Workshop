@@ -263,36 +263,36 @@ oc get pods -A
 1) Retrieve and copy the [entitlement key](https://myibm.ibm.com/products-services/containerlibrary) to set the environment 
 variable `IBM_CP_ENTITLEMENT_KEY`.
 
-```bash
-export IBM_CP_ENTITLEMENT_KEY=<Your_IBM_Cloud_Pak_Entitlement_Key>
-```
+    ```bash
+    export IBM_CP_ENTITLEMENT_KEY=<Your_IBM_Cloud_Pak_Entitlement_Key>
+    ```
 
 2) Login to your local linux/mac box with admin privileges. Create `workspace` directory in your local linux/mac box. 
 Download **iac-ibm-openshift-ieam** repository code and execute the shell script `ieam-deploy.sh`. 
 This will deploy the Common Services and IEAM and create IEAM hub.
 
-```bash
-mkdir <your_home_dir>/workspace
-cd <your_home_dir>/workspace
-git clone https://github.com/gargpriyank/iac-ibm-openshift-ieam.git
-cd iac-ibm-openshift-ieam/script
-chmod +x *.sh
-./script/ieam-deploy.sh
-```
+    ```bash
+    mkdir <your_home_dir>/workspace
+    cd <your_home_dir>/workspace
+    git clone https://github.com/gargpriyank/iac-ibm-openshift-ieam.git
+    cd iac-ibm-openshift-ieam/script
+    chmod +x *.sh
+    ./script/ieam-deploy.sh
+    ```
 
 3) After the above script is executed successfully, run below command and make sure that all the pods are either in **Running** or **Completed
 ** status.
 
-```bash
-oc get pods -n ibm-common-services
-```
+    ```bash
+    oc get pods -n ibm-common-services
+    ```
 
 4) Download the IBM Edge Application Manager Agent package 
 from [IBM Passport Advantage](https://www.ibm.com/support/knowledgecenter/SSFKVV_4.2/hub/part_numbers.html?view=kc) 
 or [IBM Internal DSW](https://w3-03.ibm.com/software/xl/download/ticket.wss) (for IBMers only) and save it in the directory 
 `<your_home_dir/workspace`. Set the environment variable `IEAM_PACKAGE_FILE_NAME` with the downloaded file name and extract the installation media.
 
-```bash
-export IEAM_PACKAGE_FILE_NAME=<downloaded_file_name>
-
-```
+    ```bash
+    export IEAM_PACKAGE_FILE_NAME=<downloaded_file_name>
+    
+    ```
