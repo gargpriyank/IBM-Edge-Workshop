@@ -13,7 +13,7 @@ The computation in edge computing is either largely or entirely performed on dis
 that needs to be closer to the source of the action where distributed systems technology interacts with the physical world. 
 Although it may interact with a centralized cloud, edge computing doesn’t need contact with a centralized cloud.
 
-![Network Architecture](https://github.com/gargpriyank/ibmcloud-examples/blob/master/iac-ibm-openshift-ieam/images/Network_Architecture.png)
+![Network Architecture](https://github.com/gargpriyank/ibmcloud-examples/blob/master/iac-ibm-openshift-ieam/images/NetworkArchitecture.png)
 
 ## Provision OpenShift Classic 
 
