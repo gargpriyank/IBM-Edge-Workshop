@@ -1,4 +1,21 @@
-# Provision OpenShift Classic 
+# IBM Edge Application Manager Automation
+
+## Edge computing
+
+Edge computing is a distributed computing model and open information technology (IT) architecture. 
+This paradigm drives computer data storage towards a location where it’s needed and enables mobile computing and Internet of Things (IoT) 
+technologies.
+
+Edge computing drives applications, data and computing power services away from centralized points and towards places that are closer to the user. 
+This data is processed by a device or by a local computer or server instead of being transmitted to a data center.
+
+The computation in edge computing is either largely or entirely performed on distributed device nodes. Edge computing focuses on any application 
+that needs to be closer to the source of the action where distributed systems technology interacts with the physical world. 
+Although it may interact with a centralized cloud, edge computing doesn’t need contact with a centralized cloud.
+
+![Network Architecture](https://github.com/gargpriyank/ibmcloud-examples/blob/master/iac-ibm-openshift-ieam/images/Network_Architecture.png)
+
+## Provision OpenShift Classic 
 
 This directory contains the terraform code to provision Red Hat OpenShift Classic, IBM Cloudant database, IBM Event Streams (Kafka), Bare Metal
 Server and Virtual Server. This code provides the flexibility to keep IBM Cloudant database (enable_db_service) 
@@ -10,7 +27,7 @@ and IBM Event Streams (enable_event_streams_service) optional and can be set as 
 - [How to use IBM Cloud Registry](#how-to-use-ibm-cloud-registry)
 - [Project Validation](#project-validation)
 
-## General Requirements
+### General Requirements
 
 Same for every pattern, the requirements are documented in the 
 [Environment Setup](https://ibm.github.io/cloud-enterprise-examples/iac/setup-environment). It includes:
@@ -24,9 +41,9 @@ Same for every pattern, the requirements are documented in the
 - [Configure access to IBM Cloud](https://ibm.github.io/cloud-enterprise-examples/iac/setup-environment#configure-access-to-ibm-cloud) for
   Terraform and the IBM Cloud CLI
 - [Install IBM Cloud Terraform Provider](https://ibm.github.io/cloud-enterprise-examples/iac/setup-environment#configure-access-to-ibm-cloud)
-- (Optional) Install some utility tools such as: [jq](https://stedolan.github.io/jq/download/) 
-  and [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
-- (Optional) Install OpenShift CLI (OC) from OpenShift console by clicking ? button on the top right corner and selecting Command Line Tools option.
+- Install some utility tools such as:
+  [jq](https://stedolan.github.io/jq/download/), 
+  [IBM Cloud Pak CLI (cloudctl) and OpenShift client CLI (oc)](https://www.ibm.com/support/knowledgecenter/SSFKVV_4.2/cli/cloudctl_oc_cli.html)
 
 > The IBM Cloud Terraform provider must be version 1.8.0 or later. This example is using Terraform version 0.12.0.
 
@@ -55,7 +72,7 @@ ibmcloud iam api-key-create TerraformKey -d "API Key for Terraform" --file ~/ibm
 export IC_API_KEY=$(grep '"apikey":' ~/ibm_api_key.json | sed 's/.*: "\(.*\)".*/\1/')
 ```
 
-## How to use with Terraform
+### How to use with Terraform
 
 A sample `terraform.tfvars` file is provided with this example. This file creates resources in Dallas region in single zone. A multi-zone
 sample file is available in **multizone** directory.
@@ -99,7 +116,7 @@ Optional: In case you want to clean up the infrastructure, execute below Terrafo
 terraform destroy
 ```
 
-## How to use with Schematics
+### How to use with Schematics
 
 Schematics delivers Terraform as a Service. 
 
@@ -203,29 +220,8 @@ ibmcloud schematics logs  --id $WORKSPACE_ID --act-id Activity_ID
 ibmcloud schematics workspace delete --id $WORKSPACE_ID
 ibmcloud schematics workspace list
 ```
-## How to use IBM Cloud Registry
 
-Install the Container Registry plug-in if not installed.
-
-```bash
-ibmcloud plugin install -f -r "IBM Cloud" container-registry
-```
-
-Execute the following commands to create the registry namespace.
-
-```bash
-ibmcloud login -a https://cloud.ibm.com     # Login to IBM cloud account. In case of single sign on, use --sso.
-ibmcloud cr region-set us-south   # Set the registry region. For an example, us-south (Dallas) region is set here.
-ibmcloud cr namespace-add iac-example-ns    # Create namespace. For an example, iac-example-ns namespace is created here.
-```
-
-Following is an example of `hello-world` application image deployed in `iac-example-ns` namespace in Dallas region.
-
-```bash
-us.icr.io/iac-example-ns/hello_world_repo:1.0   # us.icr.io is the Registry URL, hello_world_repo is the image repository, 1.0 is image version.
-```
-
-## Project Validation
+### Project Validation
 
 To have access to the IKS cluster execute this **IBM Cloud CLI** command (`NAME` is the cluster name):
 
@@ -249,14 +245,6 @@ ibmcloud schematics workspace output --id $WORKSPACE_ID --json
 ibmcloud ks cluster config --cluster $(ibmcloud schematics output --id $WORKSPACE_ID --json | jq -r '.[].output_values[].cluster_id.value')
 ```
 
-Some `kubectl` commands to verify you have access are:
-
-```bash
-kubectl cluster-info
-kubectl get nodes
-kubectl get pods -A
-```
-
 Some `oc` commands to verify you have access are:
 
 ```bash
@@ -264,3 +252,5 @@ oc cluster-info
 oc get nodes
 oc get pods -A
 ```
+
+## Deploy IBM Edge Application Manager
