@@ -173,6 +173,10 @@ variable "vs_datacenter" {
   type    = list(string)
 }
 
+variable "vs_os_reference_code" {
+  type    = string
+}
+
 locals {
   max_size = length(var.additional_zone_names)
   max_size_bm = length(var.bm_datacenter)

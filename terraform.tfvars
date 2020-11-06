@@ -41,5 +41,6 @@ bm_hourly_billing                        = false
 bm_public_vlan_id                        = 123456
 bm_private_vlan_id                       = 234566
 vs_hostname                              = "iac-example-dev-vs"
-vs_flavor_key_name                       = "b1.32x64"
+vs_flavor_key_name                       = "B1_8X32X25"
 vs_datacenter                            = ["dal10"]
+vs_os_reference_code                     = "UBUNTU_18_64"

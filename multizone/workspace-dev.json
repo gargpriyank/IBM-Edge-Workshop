@@ -234,13 +234,18 @@
         },
         {
           "name": "vs_flavor_key_name",
-          "value": "b1.32x64",
+          "value": "B1_8X32X25",
           "type": "string"
         },
         {
           "name": "vs_datacenter",
           "value": "[\"dal10\", \"dal12\"]",
           "type": "list(string)"
+        },
+        {
+          "name": "vs_os_reference_code",
+          "value": "UBUNTU_18_64",
+          "type": "string"
         }
       ]
     }
