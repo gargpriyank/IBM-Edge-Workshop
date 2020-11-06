@@ -287,8 +287,8 @@ variable `IBM_CP_ENTITLEMENT_KEY`.
     ./script/ieam-deploy.sh
     ```
    
-3) After the above script is executed successfully, run below command and make sure that all the pods are either in **Running** or **Completed
-** status.
+3) After the above script is executed successfully, run below command and make sure that all the pods are either in **Running** 
+or **Completed** status.
 
     ```bash
     oc get pods -n ibm-common-services
@@ -297,9 +297,10 @@ variable `IBM_CP_ENTITLEMENT_KEY`.
 4) Download the IBM Edge Application Manager Agent package 
 from [IBM Passport Advantage](https://www.ibm.com/support/knowledgecenter/SSFKVV_4.2/hub/part_numbers.html?view=kc) 
 or [IBM Internal DSW](https://w3-03.ibm.com/software/xl/download/ticket.wss) (for IBMers only) and save it in the directory 
-`<your_home_dir/workspace`. Set the environment variable `IEAM_PACKAGE_FILE_NAME` with the downloaded file name and extract the installation media.
+`<your_home_dir/workspace`. Set the environment variable `IEAM_PACKAGE_FILE_NAME` with the downloaded file name 
+and execute the shell script `extract-ieam-agent-files.sh`.
 
     ```bash
     export IEAM_PACKAGE_FILE_NAME=<downloaded_file_name>
-    
+   ./script/extract-ieam-agent-files.sh
     ```
