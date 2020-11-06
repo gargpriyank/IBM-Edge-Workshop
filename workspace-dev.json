@@ -10,7 +10,7 @@
     "env:dev"
   ],
   "template_repo": {
-    "url": "https://github.com/gargpriyank/iac-ocp-ieam"
+    "url": "https://github.com/gargpriyank/iac-ibm-openshift-ieam"
   },
   "template_data": [
     {
