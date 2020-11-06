@@ -268,8 +268,7 @@ variable `IBM_CP_ENTITLEMENT_KEY`.
     ```
 
 2) Login to your local linux/mac box with admin privileges. Create `workspace` directory in your local linux/mac box. 
-Download **iac-ibm-openshift-ieam** repository code and execute the shell script `ieam-deploy.sh`. 
-This will deploy the Common Services and IEAM and create IEAM hub.
+Download **iac-ibm-openshift-ieam** repository code.
 
     ```bash
     mkdir <your_home_dir>/workspace
@@ -277,9 +276,14 @@ This will deploy the Common Services and IEAM and create IEAM hub.
     git clone https://github.com/gargpriyank/iac-ibm-openshift-ieam.git
     cd iac-ibm-openshift-ieam/script
     chmod +x *.sh
+    ```
+3) Login to OpenShift cluster and execute the shell script `ieam-deploy.sh`. This will deploy the Common Services and IEAM and create IEAM hub.
+   
+    ```bash
+    oc login --token=<openshift_cluster_token> --server=<openshift_server_url>
     ./script/ieam-deploy.sh
     ```
-
+   
 3) After the above script is executed successfully, run below command and make sure that all the pods are either in **Running** or **Completed
 ** status.
 

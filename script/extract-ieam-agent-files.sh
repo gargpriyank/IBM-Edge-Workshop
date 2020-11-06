@@ -1,6 +1,8 @@
 #! /bin/bash
 
-export IEAM_PACKAGE_FILE_NAME_NO_EXT=${IEAM_PACKAGE_FILE_NAME%%.*}
-
-tar -zxvf ../../$IEAM_PACKAGE_FILE_NAME \
-&& { cd $IEAM_PACKAGE_FILE_NAME_NO_EXT/tools || { echo "Directory ${IEAM_PACKAGE_FILE_NAME_NO_EXT}/tools does not exist."; exit; } }
+# Extract the IEAM agent package
+tar -zxvf ../../$IEAM_PACKAGE_FILE_NAME -C ../../ \
+&& { cd ../../*/tools || { echo "Directory tools does not exist."; exit; } }
+ibm-edge-auth
+# Validate the installation stats
+./service_healthcheck.sh
