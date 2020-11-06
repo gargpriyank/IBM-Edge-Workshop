@@ -99,7 +99,7 @@
         },
         {
           "name": "enable_db_service",
-          "value": "false",
+          "value": "true",
           "type": "bool"
         },
         {
