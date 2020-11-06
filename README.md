@@ -277,8 +277,8 @@ variable `IBM_CP_ENTITLEMENT_KEY`.
     mkdir <your_home_dir>/workspace
     cd <your_home_dir>/workspace
     git clone https://github.com/gargpriyank/iac-ibm-openshift-ieam.git
-    cd iac-ibm-openshift-ieam/script
-    chmod +x *.sh
+    cd iac-ibm-openshift-ieam
+    chmod +x script/*.sh
     ```
 3) Login to OpenShift cluster and execute the shell script `ieam-deploy.sh`. This will deploy the Common Services and IEAM and create IEAM hub.
    
