@@ -1,4 +1,4 @@
-# IBM Edge Application Manager Automation
+# IBM Edge Manufacturing Sandbox Automation
 
 ## Edge computing
 
