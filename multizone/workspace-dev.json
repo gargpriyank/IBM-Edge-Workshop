@@ -59,7 +59,7 @@
         },
         {
           "name": "workers_count",
-          "value": "1",
+          "value": "3",
           "type": "number"
         },
         {
