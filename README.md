@@ -125,32 +125,35 @@ terraform destroy
 
 Schematics delivers Terraform as a Service. 
 
-A sample `workspace-dev.json` file is provided with this example. This file creates resources in Dallas region in single zone. A multi-zone
+A sample `workspace-workshop.json` file is provided with this example. This file creates resources in Dallas region in single zone. A multi-zone
 sample file is available in **multizone** directory.
 
-> **Note: Please replace the values of the variables as per your project requirement. It is advisable to not to commit `workspace-dev.json` file in
+> **Note: Please replace the values of the variables as per your project requirement. It is advisable to not to commit `workspace-workshop.json` file in
 > any repository since it may contain sensitive information like password.**
 
 ```json
 ...
-"template_data": [
+"template_repo": {
+    "url": "https://github.com/gargpriyank/iac-ibm-openshift-ieam"
+  },
+  "template_data": [
     {
       "folder": ".",
       "type": "terraform_v0.12",
       "variablestore": [
         {
           "name": "project_name",
-          "value": "iac-example",
+          "value": "sandbox-edge",
           "type": "string"
         },
         {
           "name": "environment",
-          "value": "dev",
+          "value": "workshop",
           "type": "string"
         },
         {
           "name": "resource_group",
-          "value": "iac-example-rg",
+          "value": "sandbox-edge-workshop-rg",
           "type": "string"
         },
         {
@@ -159,33 +162,33 @@ sample file is available in **multizone** directory.
           "type": "string"
         },
         {
+          "name": "datacenter",
+          "value": "dal12",
+          "type": "string"
+        },
+        {
+          "name": "machine_type",
+          "value": "b3c.8x32",
+          "type": "string"
+        },
+        {
+          "name": "additional_zone_names",
+          "value": "[]",
+          "type": "list(string)"
+        },
+        {
           "name": "public_vlan_id",
-          "value": "123456",
+          "value": "2852297",
           "type": "string"
         },
         {
           "name": "private_vlan_id",
-          "value": "234566",
-          "type": "string"
-        },
-        {
-          "name": "enable_public_service_endpoint",
-          "value": "true",
-          "type": "string"
-        },
-        {
-          "name": "enable_private_service_endpoint",
-          "value": "true",
+          "value": "2852299",
           "type": "string"
         },
         {
           "name": "additional_zone_public_service_endpoint",
-          "value": "[\"34567\", \"456767\"]",
-          "type": "list(string)"
-        },
-        {
-          "name": "additional_zone_private_service_endpoint",
-          "value": "[\"567888\", \"677888\"]",
+          "value": "[]",
           "type": "list(string)"
         },
 ...
@@ -203,7 +206,7 @@ Execute the below Schematics commands:
 ```bash
 # Create workspace:
 ibmcloud schematics workspace list
-ibmcloud schematics workspace new --file workspace-dev.json #Create dev environment workspace.
+ibmcloud schematics workspace new --file workspace-workshop.json #Create dev environment workspace.
 ibmcloud schematics workspace list          # Identify the workspace_ID
 
 # Create plan: 
