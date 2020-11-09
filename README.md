@@ -299,8 +299,8 @@ oc get pods -n ibm-common-services
 from [IBM Passport Advantage](https://www.ibm.com/support/knowledgecenter/SSFKVV_4.2/hub/part_numbers.html?view=kc) 
 or [IBM Internal DSW](https://w3-03.ibm.com/software/xl/download/ticket.wss) (for IBMers only) and save it in the directory 
 `<your_home_dir/workspace`. Set the environment variable `IEAM_PACKAGE_FILE_NAME` with the downloaded file name 
-and execute the shell script `install_hzn_cli.sh`.
-> **Note: Update `install_hzn_cli.sh` file as per your operating system. It supports Linux and macOS.
+and execute the shell script `install_hzn_cli.sh`. This will install the horizon CLI.
+> **Note: Update `install_hzn_cli.sh` file as per your operating system. It supports Linux and macOS. By default, it is configured for macOS.
 
 ```
 export IEAM_PACKAGE_FILE_NAME=<downloaded_file_name>
@@ -314,4 +314,10 @@ export FIRST_ORG_ID=<your_first_org_id>
 export CLUSTER_URL=https://$(oc get cm management-ingress-ibmcloud-cluster-info -o jsonpath='{.data.cluster_ca_domain}')
 export CLUSTER_USER=$(oc -n ibm-common-services get secret platform-auth-idp-credentials -o jsonpath='{.data.admin_username}' | base64 --decode)
 export CLUSTER_PW=$(oc -n ibm-common-services get secret platform-auth-idp-credentials -o jsonpath='{.data.admin_password}' | base64 --decode)
+```
+
+7. Extract the IEAM agent files to install it on each node.
+
+```
+./script/extract_edge_node_files.sh
 ```

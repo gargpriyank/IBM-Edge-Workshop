@@ -8,6 +8,6 @@ oc --insecure-skip-tls-verify=true -n kube-public get secret ibmcloud-cluster-ca
 export HZN_MGMT_HUB_CERT_PATH="$PWD/ieam.crt"
 export HZN_FSS_CSSURL=${CLUSTER_URL}/edge-css
 
-cd agent || { echo "Directory agent does not exist."; exit; }
+../cd agent || { echo "Directory agent does not exist."; exit; }
 
 edgeNodeFiles.sh ALL -t -p edge-packages-4.2.0
