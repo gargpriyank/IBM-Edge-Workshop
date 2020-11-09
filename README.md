@@ -29,7 +29,6 @@ Below is the typical network architecture of the IBM Edge components produced by
 - [General Requirements](#general-requirements)
 - [How to use with Terraform](#how-to-use-with-terraform)
 - [How to use with Schematics](#how-to-use-with-schematics)
-- [How to use IBM Cloud Registry](#how-to-use-ibm-cloud-registry)
 - [Validation](#validation)
 - [Deploy IBM Edge Application Manage (IEAM) and extract edge agent files](#deploy-ibm-edge-application-manager-ieam-and-extract-edge-agent-files)
 - [Deploy IEAM agent in edge node](#deploy-ieam-agent-in-edge-node)
