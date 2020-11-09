@@ -10,5 +10,5 @@ export HZN_FSS_CSSURL=${CLUSTER_URL}/edge-css
 
 cd ../*/agent || { echo "Directory agent does not exist."; exit; }
 
-# Run the edgeNodeFiles.sh script to gather the necessary files and put them in the CSS (Cloud Sync Service) component of the Model Management System.
-HZN_EXCHANGE_USER_AUTH='' edgeNodeFiles.sh ALL -c -p edge-packages-4.2.0
+# Extracting IEAM edge agent files for edge node
+edgeNodeFiles.sh ALL -t -p edge-packages-4.2.0
