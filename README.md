@@ -282,21 +282,21 @@ git clone https://github.com/gargpriyank/iac-ibm-openshift-ieam.git
 cd iac-ibm-openshift-ieam
 chmod +x script/*.sh
 ```
-3. Log in to OpenShift cluster and execute the shell script `ieam-deploy.sh`. This will deploy the Common Services and IEAM and create IEAM hub.
+3) Log in to OpenShift cluster and execute the shell script `ieam-deploy.sh`. This will deploy the Common Services and IEAM and create IEAM hub.
    
 ```
 oc login --token=<openshift_cluster_token> --server=<openshift_server_url>
 ./script/ieam-deploy.sh
 ```
    
-4. After the above script is executed successfully, run below command and make sure that all the pods are either in **Running** 
+4) After the above script is executed successfully, run below command and make sure that all the pods are either in **Running** 
 or **Completed** status.
 
 ```
 oc get pods -n ibm-common-services
 ```
 
-5. Download the IBM Edge Application Manager Agent package 
+5) Download the IBM Edge Application Manager Agent package 
 from [IBM Passport Advantage](https://www.ibm.com/support/knowledgecenter/SSFKVV_4.2/hub/part_numbers.html?view=kc) 
 or [IBM Internal DSW](https://w3-03.ibm.com/software/xl/download/ticket.wss) (for IBMers only) and save it in the directory 
 `<your_home_dir/workspace`. Set the environment variable `IEAM_PACKAGE_FILE_NAME` with the downloaded file name 
@@ -309,7 +309,7 @@ export FIRST_ORG_ID=sandbox-edge-workshop-ieam-cluster   Feel free to choose any
 ./script/install_hzn_cli.sh
 ```
 
-6. The environment variables in below will set the IEAM hub cluster URL, User Name and Password. You can log in to IEAM hub using these credentials.
+6) The environment variables in below will set the IEAM hub cluster URL, User Name and Password. You can log in to IEAM hub using these credentials.
 
 ```
 export CLUSTER_URL=https://$(oc get cm management-ingress-ibmcloud-cluster-info -o jsonpath='{.data.cluster_ca_domain}')
@@ -317,20 +317,20 @@ export CLUSTER_USER=$(oc -n ibm-common-services get secret platform-auth-idp-cre
 export CLUSTER_PW=$(oc -n ibm-common-services get secret platform-auth-idp-credentials -o jsonpath='{.data.admin_password}' | base64 --decode)
 ```
 
-7. Extract the IEAM edge agent files to install it on each node.
+7) Extract the IEAM edge agent files to install it on each node.
 
 ```
 ./script/extract_edge_node_files.sh
 ```
 
-8. Log in to IEAM management hub via `cloudctl` and create an apikey. Note down the apikey for future use.
+8) Log in to IEAM management hub via `cloudctl` and create an apikey. Note down the apikey for future use.
 
 ```
 cloudctl login -a $CLUSTER_URL -u $CLUSTER_USER -p $CLUSTER_PW --skip-ssl-validation
 cloudctl iam api-key-create edge-app-apikey -d "API key to connect to IEAM hub" # You are free to choose any name for apikey
 ```
 
-9. Locate the files **agent-install.sh** and **agent-uninstall.sh** as per your operating system.
+9) Locate the files **agent-install.sh** and **agent-uninstall.sh** as per your operating system.
 
 - Linux:
 
@@ -348,7 +348,7 @@ ls /usr/local/bin/agent-uninstall.sh
 
 ## Deploy IEAM agent in edge node
 
-1. Log in to your edge node with root privileges. Install [docker](https://www.ibm.com/links?url=https%3A%2F%2Fdocs.docker.com%2Fget-docker%2F)
+1) Log in to your edge node with root privileges. Install [docker](https://www.ibm.com/links?url=https%3A%2F%2Fdocs.docker.com%2Fget-docker%2F)
 and run below commands to add a new user and group and switch log in to new user.
 > Note: For edge node only Linux operating system is supported.
 
@@ -360,7 +360,7 @@ passwd ibm-workshop
 su - ibm-workshop
 ```
 
-2. Export all the necessary environment variables.
+2) Export all the necessary environment variables.
 
 ```
 export HZN_EXCHANGE_USER_AUTH=iamapikey:<api-key-generated-above>
@@ -369,7 +369,7 @@ export HZN_FSS_CSSURL=<ieam-management-hub-url>/edge-css/   # <ieam-management-h
 export HZN_ORG_ID=sandbox-edge-workshop-ieam-cluster    # This should be same organization id you created while deploying IEAM hub
 ```
 
-3. Create **workspace** directory and copy the files **agent-install.sh** and **agent-uninstall.sh** generate above into **workspace** directory.
+3) Create **workspace** directory and copy the files **agent-install.sh** and **agent-uninstall.sh** generate above into **workspace** directory.
 
 ```
 mkdir /home/ibm-workshop/workspace
@@ -377,7 +377,7 @@ cd /home/ibm-workshop/workspace
 cp <your_home_dir>/workspace /home/ibm-workshop/workspace   # <your_home_dir> is in your local system
 ```
 
-4. Deploy IEAM agent, deploy sample helloworld service and register node.
+4) Deploy IEAM agent, deploy sample helloworld service and register node.
 
 ```
 sudo -s -E ./agent-install.sh -i 'css:' -p IBM/pattern-ibm.helloworld -w '*' -T 120
