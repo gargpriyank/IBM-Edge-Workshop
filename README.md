@@ -47,8 +47,9 @@ Same for every pattern, the requirements are documented in the
   Terraform and the IBM Cloud CLI
 - [Install IBM Cloud Terraform Provider](https://ibm.github.io/cloud-enterprise-examples/iac/setup-environment#configure-access-to-ibm-cloud)
 - Install some utility tools such as:
-  [jq](https://stedolan.github.io/jq/download/), 
-  [IBM Cloud Pak CLI (cloudctl) and OpenShift client CLI (oc)](https://www.ibm.com/support/knowledgecenter/SSFKVV_4.2/cli/cloudctl_oc_cli.html)
+  - [jq](https://stedolan.github.io/jq/download/)
+  - [IBM Cloud Pak CLI (cloudctl) and OpenShift client CLI (oc)](https://www.ibm.com/support/knowledgecenter/SSFKVV_4.2/cli/cloudctl_oc_cli.html)
+  - [docker](https://www.ibm.com/links?url=https%3A%2F%2Fdocs.docker.com%2Fget-docker%2F)
 
 > The IBM Cloud Terraform provider must be version 1.8.0 or later. This example is using Terraform version 0.12.0.
 
@@ -299,8 +300,17 @@ from [IBM Passport Advantage](https://www.ibm.com/support/knowledgecenter/SSFKVV
 or [IBM Internal DSW](https://w3-03.ibm.com/software/xl/download/ticket.wss) (for IBMers only) and save it in the directory 
 `<your_home_dir/workspace`. Set the environment variable `IEAM_PACKAGE_FILE_NAME` with the downloaded file name 
 and execute the shell script `extract-ieam-agent-files.sh`.
+> **Note: Update `extract-ieam-agent-files.sh` file as per your operating system. It supports Linux and macOS.
 
     ```bash
     export IEAM_PACKAGE_FILE_NAME=<downloaded_file_name>
+    export FIRST_ORG_ID=<your_first_org_id>
    ./script/extract-ieam-agent-files.sh
+    ```
+5) The environment variables in below will set the IEAM hub cluster URL, User Name and Password. You can log into IEAM hub using these credentials.
+
+    ```bash
+    export CLUSTER_URL=https://$(oc get cm management-ingress-ibmcloud-cluster-info -o jsonpath='{.data.cluster_ca_domain}')
+    export CLUSTER_USER=$(oc -n ibm-common-services get secret platform-auth-idp-credentials -o jsonpath='{.data.admin_username}' | base64 --decode)
+    export CLUSTER_PW=$(oc -n ibm-common-services get secret platform-auth-idp-credentials -o jsonpath='{.data.admin_password}' | base64 --decode)
     ```
