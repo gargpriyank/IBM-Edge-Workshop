@@ -265,8 +265,8 @@ oc get pods -A
 ## Deploy IBM Edge Application Manager
 
 #### 1. Login to your local linux/mac box with admin privileges. 
-Retrieve and copy the [entitlement key](https://myibm.ibm.com/products-services/containerlibrary) and set the environment 
-variable `IBM_CP_ENTITLEMENT_KEY`.
+#### Retrieve and copy the [entitlement key](https://myibm.ibm.com/products-services/containerlibrary) 
+#### and set the environment variable `IBM_CP_ENTITLEMENT_KEY`.
 
 ```
 export IBM_CP_ENTITLEMENT_KEY=<Your_IBM_Cloud_Pak_Entitlement_Key>
