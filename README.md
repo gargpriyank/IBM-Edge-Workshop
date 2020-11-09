@@ -265,7 +265,7 @@ oc get pods -A
 
 ## Deploy IBM Edge Application Manager (IEAM) and extract edge agent files
 
-1. Log in to your local linux/mac box with admin privileges. 
+1) Log in to your local linux/mac box with admin privileges. 
 Retrieve and copy the [entitlement key](https://myibm.ibm.com/products-services/containerlibrary) and set the environment 
 variable `IBM_CP_ENTITLEMENT_KEY`.
 
@@ -273,7 +273,7 @@ variable `IBM_CP_ENTITLEMENT_KEY`.
 export IBM_CP_ENTITLEMENT_KEY=<Your_IBM_Cloud_Pak_Entitlement_Key>
 ```
 
-2. Create `workspace` directory in your local linux/mac box. Download **iac-ibm-openshift-ieam** repository code.
+2) Create `workspace` directory in your local linux/mac box. Download **iac-ibm-openshift-ieam** repository code.
 
 ```
 mkdir <your_home_dir>/workspace
