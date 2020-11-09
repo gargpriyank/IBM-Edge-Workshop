@@ -264,7 +264,7 @@ oc get pods -A
 
 ## Deploy IBM Edge Application Manager
 
-### 1. Login to your local linux/mac box with admin privileges. 
+##### 1. Login to your local linux/mac box with admin privileges. 
 Retrieve and copy the [entitlement key](https://myibm.ibm.com/products-services/containerlibrary) and set the environment 
 variable `IBM_CP_ENTITLEMENT_KEY`.
 
@@ -272,7 +272,7 @@ variable `IBM_CP_ENTITLEMENT_KEY`.
 export IBM_CP_ENTITLEMENT_KEY=<Your_IBM_Cloud_Pak_Entitlement_Key>
 ```
 
-### 2. Create `workspace` directory in your local linux/mac box. Download **iac-ibm-openshift-ieam** repository code.
+##### 2. Create `workspace` directory in your local linux/mac box. Download **iac-ibm-openshift-ieam** repository code.
 
 ```
 mkdir <your_home_dir>/workspace
@@ -281,21 +281,21 @@ git clone https://github.com/gargpriyank/iac-ibm-openshift-ieam.git
 cd iac-ibm-openshift-ieam
 chmod +x script/*.sh
 ```
-### 3. Login to OpenShift cluster and execute the shell script `ieam-deploy.sh`. This will deploy the Common Services and IEAM and create IEAM hub.
+##### 3. Login to OpenShift cluster and execute the shell script `ieam-deploy.sh`. This will deploy the Common Services and IEAM and create IEAM hub.
    
 ```
 oc login --token=<openshift_cluster_token> --server=<openshift_server_url>
 ./script/ieam-deploy.sh
 ```
    
-### 4. After the above script is executed successfully, run below command and make sure that all the pods are either in **Running** 
+##### 4. After the above script is executed successfully, run below command and make sure that all the pods are either in **Running** 
 or **Completed** status.
 
 ```
 oc get pods -n ibm-common-services
 ```
 
-### 5. Download the IBM Edge Application Manager Agent package 
+##### 5. Download the IBM Edge Application Manager Agent package 
 from [IBM Passport Advantage](https://www.ibm.com/support/knowledgecenter/SSFKVV_4.2/hub/part_numbers.html?view=kc) 
 or [IBM Internal DSW](https://w3-03.ibm.com/software/xl/download/ticket.wss) (for IBMers only) and save it in the directory 
 `<your_home_dir/workspace`. Set the environment variable `IEAM_PACKAGE_FILE_NAME` with the downloaded file name 
@@ -308,7 +308,7 @@ export FIRST_ORG_ID=<your_first_org_id>
 ./script/extract-ieam-agent-files.sh
 ```
 
-### 6. The environment variables in below will set the IEAM hub cluster URL, User Name and Password. You can log into IEAM hub using these credentials.
+##### 6. The environment variables in below will set the IEAM hub cluster URL, User Name and Password. You can log into IEAM hub using these credentials.
 
 ```
 export CLUSTER_URL=https://$(oc get cm management-ingress-ibmcloud-cluster-info -o jsonpath='{.data.cluster_ca_domain}')
