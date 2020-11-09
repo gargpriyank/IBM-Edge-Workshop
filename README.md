@@ -31,7 +31,7 @@ Below is the typical network architecture of the IBM Edge components produced by
 - [How to use with Schematics](#how-to-use-with-schematics)
 - [Validation](#validation)
 - [Deploy IBM Edge Application Manage (IEAM) and extract edge agent files](#deploy-ibm-edge-application-manager-ieam-and-extract-edge-agent-files)
-- [Deploy IEAM agent in edge node](#deploy-ieam-agent-in-edge-node)
+- [Deploy IEAM agent on edge node](#deploy-ieam-agent-on-edge-node)
 
 ### General Requirements
 
@@ -346,7 +346,7 @@ ls /usr/local/bin/agent-install.sh
 ls /usr/local/bin/agent-uninstall.sh
 ```
 
-## Deploy IEAM agent in edge node
+## Deploy IEAM agent on edge node
 
 1) Log in to your edge node with root privileges. Install [docker](https://www.ibm.com/links?url=https%3A%2F%2Fdocs.docker.com%2Fget-docker%2F)
 and run below commands to add a new user and group and switch log in to new user.
