@@ -299,13 +299,13 @@ oc get pods -n ibm-common-services
 from [IBM Passport Advantage](https://www.ibm.com/support/knowledgecenter/SSFKVV_4.2/hub/part_numbers.html?view=kc) 
 or [IBM Internal DSW](https://w3-03.ibm.com/software/xl/download/ticket.wss) (for IBMers only) and save it in the directory 
 `<your_home_dir/workspace`. Set the environment variable `IEAM_PACKAGE_FILE_NAME` with the downloaded file name 
-and execute the shell script `extract-ieam-agent-files.sh`.
-> **Note: Update `extract-ieam-agent-files.sh` file as per your operating system. It supports Linux and macOS.
+and execute the shell script `install_hzn_cli.sh`.
+> **Note: Update `install_hzn_cli.sh` file as per your operating system. It supports Linux and macOS.
 
 ```
 export IEAM_PACKAGE_FILE_NAME=<downloaded_file_name>
 export FIRST_ORG_ID=<your_first_org_id>
-./script/extract-ieam-agent-files.sh
+./script/install_hzn_cli.sh
 ```
 
 6. The environment variables in below will set the IEAM hub cluster URL, User Name and Password. You can log into IEAM hub using these credentials.
