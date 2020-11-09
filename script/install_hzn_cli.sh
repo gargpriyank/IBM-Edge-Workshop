@@ -22,5 +22,5 @@ cd ../agent && tar -zxvf edge-packages*.tar.gz
 sudo security add-trusted-cert -d -r trustRoot -k /Library/Keychains/System.keychain edge-packages-4.2.0/macos/pkg/x86_64/horizon-cli.crt && \
 sudo installer -pkg edge-packages-4.2.0/macos/pkg/x86_64/horizon-cli-*.pkg -target /
 
-# Create first organization
+# Create first organization and publish the sample patterns and services in IEAM hub
 cd ../tools && ./post_install.sh $FIRST_ORG_ID

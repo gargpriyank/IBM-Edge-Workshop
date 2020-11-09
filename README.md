@@ -331,14 +331,13 @@ cloudctl login -a $CLUSTER_URL -u $CLUSTER_USER -p $CLUSTER_PW --skip-ssl-valida
 cloudctl iam api-key-create edge-app-apikey -d "API key to connect to IEAM hub" # You are free to choose any name for apikey
 ```
 
-9. Locate the files `agent-install.sh`, `agent-uninstall.sh` and `agentInstallFiles*.tar.gz` as per your operating system.
+9. Locate the files **agent-install.sh** and **agent-uninstall.sh** as per your operating system.
 
 - Linux:
 
 ```
 ls /usr/horizon/bin/agent-install.sh
 ls /usr/horizon/bin/agent-uninstall.sh
-ls ../*/agent/agentInstallFiles*.tar.gz
 ```
 
 - macOS:
@@ -346,7 +345,6 @@ ls ../*/agent/agentInstallFiles*.tar.gz
 ```
 ls /usr/local/bin/agent-install.sh
 ls /usr/local/bin/agent-uninstall.sh
-ls ../*/agent/agentInstallFiles*.tar.gz
 ```
 
 ## Deploy IEAM agent in edge node
@@ -372,12 +370,16 @@ export HZN_FSS_CSSURL=<ieam-management-hub-url>/edge-css/   # <ieam-management-h
 export HZN_ORG_ID=sandbox-edge-workshop-ieam-cluster    # This should be same organization id you created while deploying IEAM hub
 ```
 
-3. Create `workspace` directory and copy the files `agent-install.sh`, `agent-uninstall.sh` and `agentInstallFiles*.tar.gz`.
+3. Create **workspace** directory and copy the files **agent-install.sh** and **agent-uninstall.sh** generate above into **workspace** directory.
 
 ```
 mkdir /home/ibm-workshop/workspace
 cd /home/ibm-workshop/workspace
-cp 
+cp <your_home_dir>/workspace /home/ibm-workshop/workspace   # <your_home_dir> is in your local system
+```
 
-sudo -s ./agent-install.sh -i 'css:' -O $HZN_ORG_ID -u $HZN_EXCHANGE_USER_AUTH -p $HZN_ORG_ID/pattern-ibm.helloworld -w '*' -T 120
+4. Deploy IEAM agent, deploy sample helloworld service and register node.
+
+```
+sudo -s -E ./agent-install.sh -i 'css:' -p IBM/pattern-ibm.helloworld -w '*' -T 120
 ```
