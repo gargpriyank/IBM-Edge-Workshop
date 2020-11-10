@@ -27,7 +27,7 @@ Below is the typical network architecture of the IBM Edge components produced by
 
 ![Network Architecture](https://github.com/gargpriyank/iac-ibm-openshift-ieam/blob/main/images/NetworkArchitecture.png)
 
-## Provision OpenShift Classic cluster
+## Navigation
 
 - [General Requirements](#general-requirements)
 - [How to use with Terraform](#how-to-use-with-terraform)
