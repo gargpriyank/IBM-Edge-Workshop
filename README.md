@@ -300,8 +300,7 @@ oc get pods -n ibm-common-services
 ```
 
 5) Download the IBM Edge Application Manager 4.2 Agent package 
-from [IBM Passport Advantage](https://www.ibm.com/support/knowledgecenter/SSFKVV_4.2/hub/part_numbers.html?view=kc) 
-or [IBM Internal DSW](https://w3-03.ibm.com/software/xl/download/ticket.wss) (for IBMers only) and save it in the directory 
+from [IBM Passport Advantage](https://www.ibm.com/support/knowledgecenter/SSFKVV_4.2/hub/part_numbers.html?view=kc) and save it in the directory 
 `<your_home_dir/workspace`. Set the environment variable `IEAM_PACKAGE_FILE_NAME` with the downloaded file name 
 and execute the shell script `install_hzn_cli.sh`. This will install the horizon CLI.
 > **Note: Update `install_hzn_cli.sh` file as per your operating system. It supports Linux and macOS. By default, it is configured for macOS.
