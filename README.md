@@ -21,7 +21,7 @@ IEAM deployed on OpenShift cluster provides the edge computing features to manag
 This project contains:
 - The terraform code to provision Red Hat OpenShift Classic cluster, IBM Cloudant database, IBM Event Streams (Kafka), Bare Metal Server, 
 Virtual Server, IBM Cloudant database, and IBM Event Streams (enable_event_streams_service). 
-- The bash scripts to deploy the IBM Edge Application Manager hub and IBM Edge Application Manager agent.
+- The bash scripts to deploy the IEAM 4.2 hub and IEAM 4.2 agent.
 
 Below is the typical network architecture of the IBM Edge components produced by this project code.
 
@@ -33,8 +33,8 @@ Below is the typical network architecture of the IBM Edge components produced by
 - [How to use with Terraform](#how-to-use-with-terraform)
 - [How to use with Schematics](#how-to-use-with-schematics)
 - [Validation](#validation)
-- [Deploy IBM Edge Application Manage (IEAM) and extract edge agent files](#deploy-ibm-edge-application-manager-ieam-and-extract-edge-agent-files)
-- [Deploy IEAM agent on edge node](#deploy-ieam-agent-on-edge-node)
+- [Deploy IEAM 4.2 and extract edge agent files](#deploy-ieam-42-and-extract-edge-agent-files)
+- [Deploy IEAM 4.2 agent on edge node](#deploy-ieam-42-agent-on-edge-node)
 
 ### General Requirements
 
@@ -266,7 +266,7 @@ oc get nodes
 oc get pods -A
 ```
 
-## Deploy IBM Edge Application Manager (IEAM) and extract edge agent files
+## Deploy IEAM 4.2 and extract edge agent files
 
 1) Log in to your local linux/mac box with admin privileges. 
 Retrieve and copy the [entitlement key](https://myibm.ibm.com/products-services/containerlibrary) and set the environment 
@@ -299,7 +299,7 @@ or **Completed** status.
 oc get pods -n ibm-common-services
 ```
 
-5) Download the IBM Edge Application Manager Agent package 
+5) Download the IBM Edge Application Manager 4.2 Agent package 
 from [IBM Passport Advantage](https://www.ibm.com/support/knowledgecenter/SSFKVV_4.2/hub/part_numbers.html?view=kc) 
 or [IBM Internal DSW](https://w3-03.ibm.com/software/xl/download/ticket.wss) (for IBMers only) and save it in the directory 
 `<your_home_dir/workspace`. Set the environment variable `IEAM_PACKAGE_FILE_NAME` with the downloaded file name 
@@ -349,7 +349,7 @@ ls /usr/local/bin/agent-install.sh
 ls /usr/local/bin/agent-uninstall.sh
 ```
 
-## Deploy IEAM agent on edge node
+## Deploy IEAM 4.2 agent on edge node
 
 1) Log in to your edge node with root privileges. Install [docker](https://www.ibm.com/links?url=https%3A%2F%2Fdocs.docker.com%2Fget-docker%2F)
 and run below commands to add a new user and group and switch log in to new user.
