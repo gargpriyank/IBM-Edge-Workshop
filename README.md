@@ -18,12 +18,12 @@ IEAM deployed on OpenShift cluster provides the edge computing features to manag
 
 ## Content
 
-This repository contains:
+This project contains:
 - The terraform code to provision Red Hat OpenShift Classic cluster, IBM Cloudant database, IBM Event Streams (Kafka), Bare Metal Server, 
 Virtual Server, IBM Cloudant database, and IBM Event Streams (enable_event_streams_service). 
 - The bash scripts to deploy the IBM Edge Application Manager hub and IBM Edge Application Manager agent.
 
-Below is the typical network architecture of the IBM Edge components produced by this repository code.
+Below is the typical network architecture of the IBM Edge components produced by this project code.
 
 ![Network Architecture](https://github.com/gargpriyank/iac-ibm-openshift-ieam/blob/main/images/NetworkArchitecture.png)
 
@@ -87,8 +87,8 @@ export IC_API_KEY=$(grep '"apikey":' ~/ibm_api_key.json | sed 's/.*: "\(.*\)".*/
 A sample `terraform.tfvars` file is provided with this example. This file creates resources in Dallas region in single zone. A multi-zone
 sample file is available in **multizone** directory.
 
-> **Note: Please replace the values of the variables as per your project requirement. It is advisable to not to commit `terraform.tfvars` file in any
-> repository since it may contain sensitive information like password.**
+> **Note: Please replace the values of the variables as per your project requirement. It is advisable to not to commit `terraform.tfvars` file 
+> since it may contain sensitive information like password.**
 
 ```hcl-terraform
 project_name                             = "iac-example"
@@ -133,8 +133,8 @@ Schematics delivers Terraform as a Service.
 A sample `workspace-workshop.json` file is provided with this example. This file creates resources in Dallas region in single zone. A multi-zone
 sample file is available in **multizone** directory.
 
-> **Note: Please replace the values of the variables as per your project requirement. It is advisable to not to commit `workspace-workshop.json` file in
-> any repository since it may contain sensitive information like password.**
+> **Note: Please replace the values of the variables as per your project requirement. It is advisable to not to commit `workspace-workshop.json` file 
+> since it may contain sensitive information like password.**
 
 ```json
 ...
@@ -276,7 +276,7 @@ variable `IBM_CP_ENTITLEMENT_KEY`.
 export IBM_CP_ENTITLEMENT_KEY=<Your_IBM_Cloud_Pak_Entitlement_Key>
 ```
 
-2) Create `workspace` directory in your local linux/mac box. Download **iac-ibm-openshift-ieam** repository code.
+2) Create `workspace` directory in your local linux/mac box. Download **iac-ibm-openshift-ieam** project code.
 
 ```
 mkdir <your_home_dir>/workspace
