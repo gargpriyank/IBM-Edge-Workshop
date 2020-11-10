@@ -19,7 +19,7 @@ IEAM deployed on OpenShift cluster provides the edge computing features to manag
 ## Content
 
 This project contains:
-- The terraform code to provision Red Hat OpenShift Classic cluster, IBM Cloudant database, IBM Event Streams (Kafka), Bare Metal Server, 
+- The terraform code to provision Red Hat OpenShift Classic cluster, IBM Event Streams (Kafka), Bare Metal Server, 
 Virtual Server, IBM Cloudant database, and IBM Event Streams (enable_event_streams_service). 
 - The bash scripts to deploy the IEAM 4.2 hub and IEAM 4.2 agent.
 
