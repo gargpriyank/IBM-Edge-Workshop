@@ -13,6 +13,9 @@ The computation in edge computing is either largely or entirely performed on dis
 that needs to be closer to the source of the action where distributed systems technology interacts with the physical world. 
 Although it may interact with a centralized cloud, edge computing doesn’t need contact with a centralized cloud.
 
+## IBM Edge Application Manager (IEAM)
+IEAM deployed on OpenShift cluster provides the edge computing features to manage and deploy workloads from a management hub cluster to edge devices, cluster and remote instances of OpenShift Container Platform or other Kubernetes-based clusters.
+
 ## Content
 
 This repository contains:
