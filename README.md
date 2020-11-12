@@ -306,7 +306,7 @@ and execute the shell script `install_hzn_cli.sh`. This will install the horizon
 
 ```
 export IEAM_PACKAGE_FILE_NAME=<downloaded_file_name>
-export FIRST_ORG_ID=sandbox-edge-workshop-ieam-cluster   Feel free to choose any organization id.
+export FIRST_ORG_ID=sandbox-edge-workshop-ieam-cluster   # Feel free to choose any organization id.
 ./script/install_hzn_cli.sh
 ```
 
