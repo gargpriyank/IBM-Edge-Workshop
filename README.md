@@ -1,4 +1,4 @@
-# IBM Edge Sandbox Automation
+# IBM Edge Automation
 
 ## Edge computing
 
