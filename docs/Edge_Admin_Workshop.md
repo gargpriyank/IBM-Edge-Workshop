@@ -56,9 +56,6 @@ IBM Corporation \(C\) 2020 | IBM Confidential
 
 IBM Corporation \(C\) 2020 | IBM Confidential
 
-Edge Computing Regions
-
-<img src="images/Edge Workshop 11-096.png" width=500px />
 
 Enterprise hybrid multicloud\. This region offers the classic enterprise\-level model storage and management\, device management\, and especially enterprise\-level analytics and dashboards\. This region can be hosted in the cloud or in an on\-premises data center\.
 
@@ -72,9 +69,6 @@ Devices \- The edge and IoT devices are equipped to run analytics\, apply AI rul
 
 IBM Corporation \(C\) 2020 | IBM Confidential
 
-Edge Computing Scale
-
-<img src="images/Edge Workshop 11-098.png" width=500px />
 
 <img src="images/Edge Workshop 11-099.png/" width=352px />
 
