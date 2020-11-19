@@ -5,4 +5,4 @@
   on them. These devices communicate with other components to securely orchestrate software lifecycle management. 
   Near real-time inference analysis performed locally.
   
-<img src="images/ReferenceArchitecture1.png/" width=352px />
+<img src="images/ReferenceArchitecture1.png/" />
