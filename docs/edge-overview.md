@@ -14,6 +14,8 @@ __Types of Edges__
 - IoT edge
 - Mobile edge
 
+</br></br>
+
 <img src="images/Edge%20Workshop%2011-0920.png" width=500px />
 
 __Considerations for Edge Application Design and Development__
