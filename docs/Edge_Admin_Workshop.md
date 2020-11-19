@@ -1,1 +1,1 @@
-![Edge Infra Services – IEAM and Management Hub](edge-infra-services.md)
+[Edge Infra Services – IEAM and Management Hub](edge-infra-services.md)
