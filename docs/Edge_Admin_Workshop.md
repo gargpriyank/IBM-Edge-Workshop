@@ -32,23 +32,23 @@ Node Owner – edge owner registering the node to IEAM
 
 <span style="color:#0847E1"> _All these roles can be fulfilled by a single person\, if needed_ </span>
 
-<img src="images/Edge Workshop 11-091.tiff" width=352px />
+<img src="images/Edge Workshop 11-091.png/" width=352px />
 
 IBM Corporation \(C\) 2020 | IBM Confidential
 
 # Edge Developer Workshop Agenda Day 1
 
-<img src="images/Edge Workshop 11-092.tiff" width=352px />
+<img src="images/Edge Workshop 11-092.png/" width=352px />
 
 IBM Corporation \(C\) 2020 | IBM Confidential
 
-<img src="images/Edge Workshop 11-093.tiff" width=352px />
+<img src="images/Edge Workshop 11-093.png/" width=352px />
 
 IBM Corporation \(C\) 2020 | IBM Confidential
 
 # Edge Overview60 Minutes
 
-<img src="images/Edge Workshop 11-094.tiff" width=355px />
+<img src="images/Edge Workshop 11-094.png/" width=355px />
 
 # Edge Overview
 
@@ -86,7 +86,7 @@ Move to autonomous management that's built for scale and variability and runs an
 
 Administrators express an intent and autonomous management software Policy executes in line with the intent
 
-<img src="images/Edge Workshop 11-095.tiff" width=352px />
+<img src="images/Edge Workshop 11-095.png/" width=352px />
 
 IBM Corporation \(C\) 2020 | IBM Confidential
 
@@ -102,7 +102,7 @@ Edge servers are used to deploy apps to the devices\. They are in constant commu
 
 Devices \- The edge and IoT devices are equipped to run analytics\, apply AI rules\, and even store some data locally to support operations at the edge\. The devices could handle analysis and real\-time inferencing without involvement of the edge server or the enterprise region\.
 
-<img src="images/Edge Workshop 11-097.tiff" width=352px />
+<img src="images/Edge Workshop 11-097.png/" width=352px />
 
 IBM Corporation \(C\) 2020 | IBM Confidential
 
@@ -110,7 +110,7 @@ Edge Computing Scale
 
 <img src="images/Edge Workshop 11-098.png" width=500px />
 
-<img src="images/Edge Workshop 11-099.tiff" width=352px />
+<img src="images/Edge Workshop 11-099.png/" width=352px />
 
 IBM Corporation \(C\) 2020 | IBM Confidential
 
@@ -204,11 +204,11 @@ IBM Corporation \(C\) 2020 | IBM Confidential
 
 # Edge Platform – OCP, RHEL and CP4D
 
-<img src="images/Edge Workshop 11-0910.tiff" width=225px />
+<img src="images/Edge Workshop 11-0910.png/" width=225px />
 
 <img src="images/Edge Workshop 11-0911.png" width=500px />
 
-<img src="images/Edge Workshop 11-0912.tiff" width=267px />
+<img src="images/Edge Workshop 11-0912.png/" width=267px />
 
 Run Kube on the Edge
 
@@ -216,13 +216,13 @@ Multi\-Cloud deployments
 
 Flexible\, modular building blocks for edge applications
 
-<img src="images/Edge Workshop 11-0913.tiff" width=500px />
+<img src="images/Edge Workshop 11-0913.png/" width=500px />
 
-<img src="images/Edge Workshop 11-0914.tiff" width=500px />
+<img src="images/Edge Workshop 11-0914.png/" width=500px />
 
 <span style="color:#308AFF">Unified Dev Environment for integrated data management\, data governance\, data science and AI capabilities</span>
 
-<img src="images/Edge Workshop 11-0915.tiff" width=352px />
+<img src="images/Edge Workshop 11-0915.png/" width=352px />
 
 IBM Corporation \(C\) 2020 | IBM Confidential
 
@@ -238,7 +238,7 @@ Seamless Integration with OpenShift to deploy containerized apps anywhere
 
 Enables large data files such as machine learning model files to have an __independent lifecycle__ from the code that uses it\, like an inferencing application
 
-<img src="images/Edge Workshop 11-0917.tiff" width=225px />
+<img src="images/Edge Workshop 11-0917.png/" width=225px />
 
-<img src="images/Edge Workshop 11-0918.tiff" width=217px />
+<img src="images/Edge Workshop 11-0918.png/" width=217px />
 
