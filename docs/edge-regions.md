@@ -1,3 +1,3 @@
 # Edge Computing Regions
 
-<img src="images/Edge Workshop 11-096.png" width=500px />
+<img src="images/Edge Workshop 11-096.png" />
