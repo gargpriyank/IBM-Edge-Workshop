@@ -5,4 +5,4 @@
 - This Reference Architecture is most optimal for use cases involving processing of large data sets on the edge with 
   results sent back to devices.
 
-<img src="images/ReferenceArchitecture3.png" />
+<img src="images/reference-architecture_3.png" />

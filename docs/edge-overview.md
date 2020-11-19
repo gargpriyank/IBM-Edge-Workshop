@@ -16,7 +16,7 @@ __Types of Edges__
 
  </br>
 
-<img src="images/Edge%20Workshop%2011-0920.png" />
+<img src="images/ibm-edge.png" />
 
 __Considerations for Edge Application Design and Development__
 

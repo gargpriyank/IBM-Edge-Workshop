@@ -1,3 +1,3 @@
 # Edge Computing Scale
 
-<img src="images/Edge Workshop 11-098.png" />
+<img src="images/edge-scale.png" />
