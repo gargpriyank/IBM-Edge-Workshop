@@ -6,7 +6,7 @@
 
 <span style="color:#2B67D4">IBM Edge Computing</span>
 
-<img src="images/Edge Workshop 11-090.tiff" width=355px />
+<img src="images/Edge%20Workshop%2011-090.png" width=355px />
 
 Workshop Audience
 
