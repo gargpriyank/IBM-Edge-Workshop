@@ -24,7 +24,7 @@ This project contains:
 
 Below is the typical network architecture of the IBM Edge components produced by this project code.
 
-![Network Architecture](https://github.com/gargpriyank/iac-ibm-openshift-ieam/blob/main/images/NetworkArchitecture.png)
+![Network Architecture](/images/NetworkArchitecture.png)
 
 ## Navigation
 
