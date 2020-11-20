@@ -11,3 +11,6 @@ ESF features full remote device management through its integration with Everywar
 IoT Integration Platform.
 
 <img src="images/eurotech-framework.png" />
+
+## Next Step
+- [EveryWare Software Foundation](esf.md)

@@ -8,3 +8,6 @@
   uses it, like an inferencing application.
 
 <img src="images/edge-infra-services.png" />
+
+## Next Step
+- [IBM Edge Application Manager (IEAM) 4.2 - Features](ieam42-features.md)

@@ -52,3 +52,6 @@
   or other Kubernetes-based clusters.
 
 <img src="images/ibm-edge.png" />
+
+## Next Step
+- [IBM Edge Admin Workshop](edge-workshop-admin.md)
