@@ -6,3 +6,5 @@
   results sent back to devices.
 
 <img src="images/reference-architecture_3.png" />
+
+<img src="images/reference-architecture_4.png" />

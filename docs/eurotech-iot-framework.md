@@ -9,3 +9,5 @@ J1939, J1979, BACnet, IEC 60870-5-101, IEC 60870-5-104, DNP3, M-bus), MQTT conne
 flow programming to acquire data from the field, process it at the edge, and publish it to IoT Cloud Platforms. 
 ESF features full remote device management through its integration with Everyware Cloud, Eurotech’s 
 IoT Integration Platform.
+
+<img src="images/eurotech-framework.png" />
