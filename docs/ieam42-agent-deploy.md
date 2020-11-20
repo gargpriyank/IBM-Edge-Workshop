@@ -1,4 +1,4 @@
-# Deploy IEAM 4.2 agent on edge node
+# Deploy IEAM 4.2 agent and helloworld service on edge node
 
 1) Log in to your edge node with root privileges. Install [docker](https://www.ibm.com/links?url=https%3A%2F%2Fdocs.docker.com%2Fget-docker%2F)
 and run below commands to add a new user and group and switch log in to new user.

@@ -19,7 +19,7 @@ admins will be able to:
 - [Eurotech IoT Framework](eurotech-iot-framework.md)
 - [EveryWare Software Foundation](esf.md)
 - [Sample Manufacturing Edge App](sample-edge-app.md)
-- [Deploy IEAM 4.2 agent on edge node](ieam42-agent-deploy.md)
+- [Deploy IEAM 4.2 agent and helloworld service on edge node](ieam42-agent-deploy.md)
 
 ## Next Step
 - [IBM Edge Admin Workshop](edge-workshop-admin.md)
