@@ -1,4 +1,4 @@
-# IBM Edge Developer Workshop
+# IBM Edge Admin Workshop
 
 ## Workshop Audience
 This workshop is intended for Cloud Administrators who deploy and manage edge solutions - including

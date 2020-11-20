@@ -353,7 +353,7 @@ export HZN_FSS_CSSURL=<ieam-management-hub-url>/edge-css/   # <ieam-management-h
 export HZN_ORG_ID=sandbox-edge-workshop-ieam-cluster    # This should be same organization id you created while deploying IEAM hub
 ```
 
-3) Create **workspace** directory and copy the files **agent-install.sh** and **agent-uninstall.sh** generate above into **workspace** directory.
+3) Create **workspace** directory and copy the files **agent-install.sh** and **agent-uninstall.sh** generated above into **workspace** directory.
 
 ```markdown
 mkdir /home/ibm-workshop/workspace
