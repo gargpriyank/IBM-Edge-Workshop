@@ -5,7 +5,7 @@ Virtual Server, IBM Cloudant database, and IBM Event Streams.
 
 Below is the network architecture of the IBM Edge components produced by this project code.
 
-![Network Architecture](../images/NetworkArchitecture.png)
+![Network Architecture](images/network-architecture.png)
 
 ## Content
 
