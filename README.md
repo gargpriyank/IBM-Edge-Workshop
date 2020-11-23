@@ -1,6 +1,6 @@
 # IBM Edge Workshop
 
-## Workshop Audience
+## Workshop Audiences
 - Application Developers
 - Solution Designers & Architects
 
