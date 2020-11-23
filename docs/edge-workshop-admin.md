@@ -8,8 +8,6 @@ admins will be able to:
 - Manage lifecycle of edge services.
 
 ## Prerequisites
-- [Distributed Architecture 101](https://www.ibm.com/cloud/blog/understanding-distributed-cloud-architecture-the-basics) 
-and generic edge awareness for Applications.
 - Basic Cloud Native Skills – Docker, Containers, Red Hat OpenShift, Kubernetes.
 - IBM Cloud Account with Admin privileges to create and manage workshop sandbox resources.
 
