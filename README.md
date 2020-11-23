@@ -3,6 +3,8 @@
 ## Audiences
 - Application Developers
 - Solution Designers & Architects
+- IBM Partners and Customers
+- Potential Customers
 
 ## Sandbox Roles
 - Sandbox Administrator – Provision OpenShift cluster and install IBM Edge Application Manager (IEAM).
@@ -15,8 +17,7 @@
 ## Prerequisites
 - [Distributed Architecture 101](https://www.ibm.com/cloud/blog/understanding-distributed-cloud-architecture-the-basics) 
 and generic edge awareness for Applications.
-- Basic Cloud Native Skills – Docker, Containers, Red Hat OpenShift, Kubernetes.
-- IBM Cloud Account with Admin role privilege to create and manage workshop sandbox resources.
+- Basic Cloud Native Skills – Docker, Containers
 
 ## Content
 - [Edge Overview](docs/edge-overview.md)

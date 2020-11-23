@@ -3,6 +3,8 @@
 ## Audiences
 - Application Developers
 - Solution Designers & Architects
+- IBM Partners and Customers
+- Potential Customers
 
 ## Sandbox Roles
 - Sandbox Administrator – Provision OpenShift cluster and install IBM Edge Application Manager (IEAM).
