@@ -8,7 +8,7 @@ admins will be able to:
 - Manage lifecycle of edge services.
 
 ## Prerequisites
-- Basic Cloud Native Skills – Docker, Containers, Red Hat OpenShift, Kubernetes.
+- Cloud Skills – Red Hat OpenShift, Kubernetes.
 - IBM Cloud Account with Admin privileges to create and manage workshop sandbox resources.
 
 ## Content:
