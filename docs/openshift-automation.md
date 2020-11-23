@@ -64,7 +64,7 @@ export IC_API_KEY=$(grep '"apikey":' ~/ibm_api_key.json | sed 's/.*: "\(.*\)".*/
 A sample `terraform.tfvars` file is provided with this example. This file creates resources in Dallas region in single zone. A multi-zone
 sample file is available in **multizone** directory.
 
-> **Note: Please replace the values of the variables as per your project requirement. It is advisable to not to commit `terraform.tfvars` file 
+> Note: Please replace the values of the variables as per your project requirement. It is advisable to not to commit `terraform.tfvars` file 
 > since it may contain sensitive information like password.**
 
 ```markdown
@@ -110,7 +110,7 @@ Schematics delivers Terraform as a Service.
 A sample `workspace-workshop.json` file is provided with this example. This file creates resources in Dallas region in single zone. A multi-zone
 sample file is available in **multizone** directory.
 
-> **Note: Please replace the values of the variables as per your project requirement. It is advisable to not to commit `workspace-workshop.json` file
+> Note: Please replace the values of the variables as per your project requirement. It is advisable to not to commit `workspace-workshop.json` file
 > since it may contain sensitive information like password.**
 
 ```markdown
