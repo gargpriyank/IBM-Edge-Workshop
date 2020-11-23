@@ -1,4 +1,4 @@
-# IBM Edge Application Manager (IEAM) 4.2 Installation - Automated
+# IBM Edge Application Manager (IEAM) 4.2 - Automated Installation
 
 This project contains the bash script to auomate the deployment of the IEAM 4.2 hub.
 
@@ -105,4 +105,4 @@ ls /usr/local/bin/agent-uninstall.sh
 ```
 
 ## Next Step
-- [IBM Edge Application Manager (IEAM) 4.2 Agent Installation](ieam42-agent-deploy.md)
+- [IBM Edge Application Manager (IEAM) 4.2 Agent - Installation](ieam42-agent-deploy.md)

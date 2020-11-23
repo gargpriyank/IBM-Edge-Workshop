@@ -1,4 +1,4 @@
-# OpenShift Classic Cluster Provisioning - Automated
+# OpenShift Classic Cluster - Automated Provisioning
 
 This project contains the terraform code to provision Red Hat OpenShift Classic cluster, Bare Metal Server, 
 Virtual Server, IBM Cloudant database, and IBM Event Streams.
@@ -244,6 +244,6 @@ oc get pods -A
 ```
 
 ## Next Step
-- [IBM Edge Application Manager (IEAM) 4.2 Installation - Automated](ieam42-automation.md)
+- [IBM Edge Application Manager (IEAM) 4.2 - Automated Installation](ieam42-automation.md)
 <br> or,
-- [IBM Edge Application Manager (IEAM) 4.2 Installation - Manual](ieam42-installation.md)
+- [IBM Edge Application Manager (IEAM) 4.2 - Manual Installation](ieam42-installation.md)
