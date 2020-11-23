@@ -19,7 +19,7 @@ admins will be able to:
 - [Eurotech IoT Framework](eurotech-iot-framework.md)
 - [EveryWare Software Foundation](esf.md)
 - [Sample Manufacturing Edge App](sample-edge-app.md)
-- [Deploy sample edge app on the edge node](sample-edge-app-deploy.md)
+- [Deploy Sample Edge Application](sample-edge-app-deploy.md)
 
 ## Next Step
 - [IBM Edge Admin Workshop](edge-workshop-admin.md)

@@ -1,4 +1,4 @@
-# IBM Edge Application Manager (IEAM) 4.2 Agent deployment
+# Deploy Sample Edge Application
 
 This project contains the bash scripts to auomate the deployment of the IEAM 4.2 agent.
 
