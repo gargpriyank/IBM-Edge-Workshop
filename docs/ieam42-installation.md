@@ -1,4 +1,4 @@
-# IBM Edge Application Manager (IEAM) 4.2 - Installation
+# IBM Edge Application Manager (IEAM) 4.2 Installation - Manual
 
 - Get started by reading the 
   [IEAM Landing Page on IBM Cloud](https://www.ibm.com/support/knowledgecenter/SSFKVV_4.2/kc_welcome_containers.html)
@@ -12,4 +12,4 @@
   Operator hub - [Install IEAM](https://www.ibm.com/support/knowledgecenter/SSFKVV_4.2/hub/online_installation.html)
   
 ## Next Step
-- [IBM Edge Application Manager (IEAM) 4.2 Agent - Installation](ieam42-agent-deploy.md)
+- [IBM Edge Application Manager (IEAM) 4.2 Agent Installation](ieam42-agent-deploy.md)
