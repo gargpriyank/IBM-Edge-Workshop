@@ -5,9 +5,10 @@
 - Solution Designers & Architects
 
 ## Workshop Sandbox Roles:
-- Sandbox Administrator – Manages deployment (Edge + Cloud Core).
-- Cloud Admin – Installs Edge Services like IEAM.
-- Node Owner – Edge owner registering the node to IEAM.
+- Sandbox Administrator – Provision OpenShift cluster and install IBM Edge Application Manager (IEAM).
+- Node Administrator – Deploy and manage workloads on the edge node.
+- Node Owner – Register the node with IBM Edge Application Manager (IEAM).
+- Developer - Develop and publish service.
 
 > Note: All these roles can be fulfilled by a single person, if needed.
 
