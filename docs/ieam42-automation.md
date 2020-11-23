@@ -87,7 +87,7 @@ cloudctl login -a $CLUSTER_URL -u $CLUSTER_USER -p $CLUSTER_PW --skip-ssl-valida
 cloudctl iam api-key-create edge-app-apikey -d "API key to connect to IEAM hub" # You are free to choose any name for apikey
 ```
 
-9) Locate the files **agent-install.sh** and **agent-uninstall.sh** as per your operating system. You will need these files to deploy IEAM agent in
+9) Locate the files **agent-install.sh** and **agent-uninstall.sh** as per your operating system. You will need these files to deploy IEAM agent on
 the edge node.
 
 - Linux:
