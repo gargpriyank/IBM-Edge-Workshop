@@ -2,7 +2,7 @@
 
 ## Audience
 This workshop is intended for the Sandbox and Cloud Administrators who deploy and manage edge solutions including
-compute machines/clusters, edge/cloud services and applications. After completion of this workshop,
+compute machines, clusters and edge services. After completion of this workshop,
 admins will be able to:
 - Deploy IEAM 4.2 on OpenShift Cluster with automated provisioning.
 - Manage lifecycle of edge services.
