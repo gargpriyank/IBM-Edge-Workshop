@@ -102,3 +102,6 @@ ls /usr/horizon/bin/agent-uninstall.sh
 ls /usr/local/bin/agent-install.sh
 ls /usr/local/bin/agent-uninstall.sh
 ```
+
+## Next Step
+- [IBM Edge Application Manager (IEAM) 4.2 Agent - Installation](ieam42-agent-automation.md)
