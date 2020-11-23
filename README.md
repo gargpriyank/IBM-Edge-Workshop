@@ -12,7 +12,7 @@
 
 > Note: All these roles can be fulfilled by a single person, if needed.
 
-# Workshop Pre-requisite Skills
+## Workshop Pre-requisite Skills
 - [Distributed Architecture 101](https://www.ibm.com/cloud/blog/understanding-distributed-cloud-architecture-the-basics) 
 and generic edge awareness for Applications.
 - Basic Cloud Native Skills – Docker, Containers, Red Hat OpenShift, Kubernetes.
