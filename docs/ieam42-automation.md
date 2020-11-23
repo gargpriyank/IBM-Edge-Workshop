@@ -30,7 +30,7 @@ variable `IBM_CP_ENTITLEMENT_KEY`.
 export IBM_CP_ENTITLEMENT_KEY=<Your_IBM_Cloud_Pak_Entitlement_Key>
 ```
 
-2) Numbered Create `workspace` directory in your local linux/mac box. Download **iac-ibm-openshift-ieam** project code.
+2) Create `workspace` directory in your local linux/mac box. Download **iac-ibm-openshift-ieam** project code.
 
 ```markdown
 mkdir <your_home_dir>/workspace
