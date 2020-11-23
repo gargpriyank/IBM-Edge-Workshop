@@ -49,3 +49,6 @@ cp <your_home_dir>/workspace /home/ibm-workshop/workspace   # <your_home_dir> is
 ```markdown
 sudo -s -E ./agent-install.sh -i 'css:' -p IBM/pattern-ibm.helloworld -w '*' -T 120
 ```
+
+## Next Step
+- [IBM Edge Admin Workshop](edge-workshop-admin.md)
