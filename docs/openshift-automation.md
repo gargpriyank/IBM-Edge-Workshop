@@ -10,7 +10,8 @@ Below is the network architecture of the IBM Edge components produced by this pr
 ## Content
 
 - [Prerequisites](#prerequisites)
-- (Optional) [How to use with Terraform](#how-to-use-with-terraform)
+- [How to use with Terraform](#how-to-use-with-terraform)
+<br> or,
 - (Recommended) [How to use with Schematics](#how-to-use-with-schematics)
 - [Validation](#validation)
 
