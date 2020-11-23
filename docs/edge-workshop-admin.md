@@ -11,7 +11,7 @@ admins will be able to:
 - Cloud Skills – Red Hat OpenShift, Kubernetes.
 - IBM Cloud Account with Admin privileges to create and manage workshop sandbox resources.
 
-## Content:
+## Content
 - [Edge Computing Regions](edge-regions.md)
 - [Edge Computing Scale](edge-scale.md)
 - [Reference Architecture - IBM Edge Application Manager for Devices](reference-architecture-devices.md)
