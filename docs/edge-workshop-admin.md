@@ -23,7 +23,7 @@ admins will be able to:
 - (Optional) [OpenShift Classic cluster - Automated Provisioning](openshift-automation.md)
 - [IBM Edge Application Manager (IEAM) 4.2 - Automated Installation](ieam42-automation.md)
 - (Optional) [IBM Edge Application Manager (IEAM) 4.2 - Manual Installation](ieam42-installation.md)
-- [IBM Edge Application Manager (IEAM) 4.2 Agent - Installation](ieam42-agent-automation.md)
+- [IBM Edge Application Manager (IEAM) 4.2 Agent - Installation](ieam42-agent-deploy.md)
 
 ## Next Step
 - [IBM Edge Developer Workshop](edge-workshop-developer.md)

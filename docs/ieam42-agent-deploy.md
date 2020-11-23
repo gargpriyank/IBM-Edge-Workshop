@@ -1,4 +1,19 @@
-# Deploy IEAM 4.2 agent and helloworld service on edge node
+# IBM Edge Application Manager (IEAM) 4.2 Agent deployment
+
+This project contains the bash scripts to auomate the deployment of the IEAM 4.2 agent.
+
+## Content
+
+- [Prerequisites](#prerequisites)
+- [Deploy IEAM 4.2 agent on edge node](#deploy-ieam-42-agent-on-the-edge-node)
+
+### Prerequisites
+
+Install the tools such as:
+- [make](https://www.gnu.org/software/make/)
+- [docker](https://www.ibm.com/links?url=https%3A%2F%2Fdocs.docker.com%2Fget-docker%2F)
+
+## Deploy IEAM 4.2 agent on the edge node
 
 1) Log in to your edge node with root privileges. Install [docker](https://www.ibm.com/links?url=https%3A%2F%2Fdocs.docker.com%2Fget-docker%2F)
 and run below commands to add a new user and group and switch log in to new user.
@@ -15,16 +30,13 @@ su - ibm-workshop
 2) Export all the necessary environment variables.
 
 ```markdown
-export CLUSTER_URL=https://$(oc get cm management-ingress-ibmcloud-cluster-info -o jsonpath='{.data.cluster_ca_domain}')
-export CLUSTER_USER=$(oc -n ibm-common-services get secret platform-auth-idp-credentials -o jsonpath='{.data.admin_username}' | base64 --decode)
-export CLUSTER_PW=$(oc -n ibm-common-services get secret platform-auth-idp-credentials -o jsonpath='{.data.admin_password}' | base64 --decode)
-export HZN_EXCHANGE_USER_AUTH=iamapikey:<api-key-generated-above>
-export HZN_EXCHANGE_URL=<ieam-management-hub-url>/edge-exchange/v1  # <ieam-management-hub-url> is same as CLUSTER_URL
-export HZN_FSS_CSSURL=<ieam-management-hub-url>/edge-css/   # <ieam-management-hub-url> is same as CLUSTER_URL
+export HZN_EXCHANGE_USER_AUTH=iamapikey:<api-key-generated-in-ieam-installation>
+export HZN_EXCHANGE_URL=<ieam-management-hub-url>/edge-exchange/v1  # <ieam-management-hub-url> is same as CLUSTER_URL, exported in IEAM deployment
+export HZN_FSS_CSSURL=<ieam-management-hub-url>/edge-css/   # <ieam-management-hub-url> is same as CLUSTER_URL, exported in IEAM installation
 export HZN_ORG_ID=sandbox-edge-workshop-ieam-cluster    # This should be same organization id you created while deploying IEAM hub
 ```
 
-3) Create **workspace** directory and copy the files **agent-install.sh** and **agent-uninstall.sh** generated in [IBM Edge Admin Workshop](edge-workshop-admin.md) into **workspace** directory.
+3) Create **workspace** directory and copy the files **agent-install.sh** and **agent-uninstall.sh** generated above into **workspace** directory.
 
 ```markdown
 mkdir /home/ibm-workshop/workspace

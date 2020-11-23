@@ -12,4 +12,4 @@
   Operator hub - [Install IEAM](https://www.ibm.com/support/knowledgecenter/SSFKVV_4.2/hub/online_installation.html)
   
 ## Next Step
-- [IBM Edge Application Manager (IEAM) 4.2 Agent - Installation](ieam42-agent-automation.md)
+- [IBM Edge Application Manager (IEAM) 4.2 Agent - Installation](ieam42-agent-deploy.md)

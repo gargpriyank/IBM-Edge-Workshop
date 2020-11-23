@@ -13,4 +13,4 @@
 - The entire sandbox can be provisioned in IBM Cloud.
 
 ## Next Step
-- [Deploy IEAM 4.2 agent on edge node](ieam42-agent-deploy.md)
+- [Deploy IEAM 4.2 agent on edge node](sample-edge-app-deploy.md)
