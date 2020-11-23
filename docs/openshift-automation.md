@@ -54,7 +54,7 @@ use anymore.
 ibmcloud iam api-keys       # Identify your old API Key Name
 ibmcloud iam api-key-delete NAME
 
-# Create a new one and set it as environment variable
+# Create a new one and export it as environment variable
 ibmcloud iam api-key-create TerraformKey -d "API Key for Terraform" --file ~/ibm_api_key.json
 export IC_API_KEY=$(grep '"apikey":' ~/ibm_api_key.json | sed 's/.*: "\(.*\)".*/\1/')
 ```

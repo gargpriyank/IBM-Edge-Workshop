@@ -23,7 +23,7 @@ The requirements are documented in the
 ## Deploy IEAM 4.2 and extract edge agent files
 
 1) Log in to your local linux/mac box with admin privileges. 
-Retrieve and copy the [entitlement key](https://myibm.ibm.com/products-services/containerlibrary) and set the environment 
+Retrieve and copy the [entitlement key](https://myibm.ibm.com/products-services/containerlibrary) and export the environment 
 variable `IBM_CP_ENTITLEMENT_KEY`.
 
 ```markdown
@@ -55,7 +55,7 @@ oc get pods -n ibm-common-services
 
 5) Download the IBM Edge Application Manager 4.2 Agent package 
 from [IBM Passport Advantage](https://www.ibm.com/support/knowledgecenter/SSFKVV_4.2/hub/part_numbers.html?view=kc) and save it in the directory 
-`<your_home_dir/workspace`. Set the environment variable `IEAM_PACKAGE_FILE_NAME` with the downloaded file name 
+`<your_home_dir/workspace`. Export the environment variable `IEAM_PACKAGE_FILE_NAME` with the downloaded file name 
 and execute the shell script `install_hzn_cli.sh`. This will install the horizon CLI.
 > **Note: Update `install_hzn_cli.sh` file as per your operating system. It supports Linux and macOS. By default, it is configured for macOS.
 
@@ -65,7 +65,8 @@ export FIRST_ORG_ID=sandbox-edge-workshop-ieam-cluster   # Feel free to choose a
 ./script/install_hzn_cli.sh
 ```
 
-6) The environment variables in below will set the IEAM hub cluster URL, User Name and Password. You can log in to IEAM hub using these credentials.
+6) The environment variables in below will export the IEAM hub cluster URL, User Name and Password. You can log in to IEAM hub using these
+credentials.
 
 ```markdown
 export CLUSTER_URL=https://$(oc get cm management-ingress-ibmcloud-cluster-info -o jsonpath='{.data.cluster_ca_domain}')
