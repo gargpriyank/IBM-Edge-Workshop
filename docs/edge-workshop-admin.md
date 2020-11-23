@@ -1,18 +1,19 @@
 # IBM Edge Admin Workshop
 
-## Workshop Audience
-This workshop is intended for Cloud Administrators who deploy and manage edge solutions - including
-compute machines/clusters, edge/cloud services and applications. After completetion of this workshop,
+## Audience
+This workshop is intended for the Sandbox and Cloud Administrators who deploy and manage edge solutions including
+compute machines/clusters, edge/cloud services and applications. After completion of this workshop,
 admins will be able to:
-- Deploy IEAM 4.2 in an OpenShift Cluster with automated provisioning
-- Manage lifecycle of edge services
+- Deploy IEAM 4.2 on OpenShift Cluster with automated provisioning.
+- Manage lifecycle of edge services.
 
-## Workshop Pre-requisite Skills:
-- Distributed Architecture 101 and generic edge awareness for Applications
-- Basic Cloud Native Skills – docker, containers, Red Hat OpenShift, Kubernetes
-- IBM Cloud Account with Admin role privilege to create and manage workshop sandbox resources
+## Prerequisites
+- [Distributed Architecture 101](https://www.ibm.com/cloud/blog/understanding-distributed-cloud-architecture-the-basics) 
+and generic edge awareness for Applications.
+- Basic Cloud Native Skills – Docker, Containers, Red Hat OpenShift, Kubernetes.
+- IBM Cloud Account with Admin privileges to create and manage workshop sandbox resources.
 
-## Workshop Content:
+## Content:
 - [Edge Computing Regions](edge-regions.md)
 - [Edge Computing Scale](edge-scale.md)
 - [Reference Architecture - IBM Edge Application Manager for Devices](reference-architecture-devices.md)
