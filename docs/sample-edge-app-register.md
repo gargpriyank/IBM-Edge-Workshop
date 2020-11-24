@@ -5,7 +5,7 @@ This page contains the bash scripts code to publish the Sample Edge Application.
 ## Content
 
 - [Prerequisites](#prerequisites)
-- [Publish](#publish)
+- [Register & Deploy](#register--deploy)
 
 ## Prerequisites
 
