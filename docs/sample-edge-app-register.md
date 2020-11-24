@@ -7,7 +7,7 @@ This page contains the bash scripts code to publish the Sample Edge Application.
 - [Prerequisites](#prerequisites)
 - [Publish](#publish)
 
-### Prerequisites
+## Prerequisites
 
 Install the following tools:
 - [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
