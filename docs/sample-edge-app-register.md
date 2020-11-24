@@ -15,7 +15,7 @@ Streams that will be read by IBM Watson Stream Flows to save it into IBM Cloudan
 
 - Completed the steps covered in [Develop & Publish Sample Edge Application](sample-edge-app-publish.md).
 
-## Register & Deploy
+## Register & Deploy the Sample Edge Application
 
 1) Copy and paste the below content in `edge-app/userinput.json` file.
 
