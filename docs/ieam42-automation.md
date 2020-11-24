@@ -1,6 +1,6 @@
 # IBM Edge Application Manager (IEAM) 4.2 - Automated Installation
 
-This page contains the bash scripts code to automate the deployment of the IEAM 4.2 hub.
+This page contains the bash commands to automate the deployment of the IEAM 4.2 hub.
 
 ## Content
 

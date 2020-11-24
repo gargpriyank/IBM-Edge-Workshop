@@ -1,6 +1,10 @@
 # Register Sample Edge Application With Node Policy
 
-This page contains the bash scripts code to publish the Sample Edge Application.
+This page covers the step by step guidance to register and deploy the Sample Edge Application. After completing the below steps, you will be able to:
+- Register the edge node with node policy.
+- Deploy the simulated manufacturing application **esf-ieam** that generates the events such as buzzer, fan, light and temperature.
+- Deploy the sample edge application **edge-app** that reads the generated events, aggregate it to produce new events and send it over to Event
+Streams that will be read by IBM Watson Stream Flows to save it into IBM CloudantDB.
 
 ## Content
 
@@ -9,39 +13,40 @@ This page contains the bash scripts code to publish the Sample Edge Application.
 
 ## Prerequisites
 
-Install the following tools:
-- [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-- [make](https://www.gnu.org/software/make/)
-- [docker](https://www.ibm.com/links?url=https%3A%2F%2Fdocs.docker.com%2Fget-docker%2F)
+- Completed the steps covered in [Develop & Publish Sample Edge Application](sample-edge-app-publish.md).
 
 ## Register & Deploy
 
-1) Log in to your edge node with the user id **ibm-workshop** created during IEAM agent deployment.
-
-> Note: For edge node only Linux operating system is supported.
+1) Copy and paste the below content in `edge-app/userinput.json` file.
 
 ```markdown
-cd /home/ibm-workshop/workspace
-git clone https://github.com/gargpriyank/sample-edge-app.git
-cd sample-edge-app
+{
+  "services": [
+    {
+      "org": "$HZN_ORG_ID",
+      "url": "edge-app",
+      "variables": {
+        "EVENTSTREAMS_TOPIC_NAME": "$EVENTSTREAMS_TOPIC_NAME",
+        "EVENTSTREAMS_BROKER_URL": "$EVENTSTREAMS_BROKER_URL",
+        "EVENTSTREAMS_API_KEY": "$EVENTSTREAMS_API_KEY"
+      }
+    }
+  ]
+}
 ```
 
-2) Update the following environment variables in `env.sh` file.
+2) Look at the content in below. Copy and paste it into `Makefile` to register and deploy the sample edge and esf services by paasing `userinput.json`
+file to set the IBM Event Streams variables used in sample edge service.
 
 ```markdown
-docker login -u <docker_user_name> -p <docker_password> # Provide the docker user name and password.
-
-export HZN_ORG_ID=sandbox-edge-workshop-ieam-cluster # Provide the organization id of IEAM management hub.
-export HZN_EXCHANGE_USER_AUTH=iamapikey:<api_key>   # Provide the API Key to connect to IEAM management hub.
-export EVENTSTREAMS_TOPIC_NAME=<eventstreams_topic_name>    # Provide the IBM Event Streams topic name.
-export EVENTSTREAMS_BROKER_URL=<eventstreams_broker_url>    # Provide the IBM Event Streams broker URL.
-export EVENTSTREAMS_API_KEY=<eventstreams_api_key>  # Provide the IBM Event Streams API Key.
+register-node-policy:
+	cd edge-app && hzn register --policy=horizon/node_policy.json -s edge-app --serviceorg $HZN_ORG_ID -f userinput.json
 ```
 
-3) Register edge node and deploy the sample edge application.
-
+3) Run the below command and that will deploy the sample edge and esf services.
+   
 ```markdown
-./startApp.sh
+make register-node-policy
 ```
 
 ## Next Step
