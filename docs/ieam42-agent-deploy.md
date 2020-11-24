@@ -1,6 +1,6 @@
 # IBM Edge Application Manager (IEAM) 4.2 Agent - Installation
 
-This project contains the bash scripts to auomate the deployment of the IEAM 4.2 agent.
+This page contains the bash scripts code to automate the deployment of the IEAM 4.2 agent.
 
 ## Content
 
@@ -9,7 +9,7 @@ This project contains the bash scripts to auomate the deployment of the IEAM 4.2
 
 ### Prerequisites
 
-Install the tools such as:
+Install the following tools:
 - [make](https://www.gnu.org/software/make/)
 - [docker](https://www.ibm.com/links?url=https%3A%2F%2Fdocs.docker.com%2Fget-docker%2F)
 
@@ -17,6 +17,7 @@ Install the tools such as:
 
 1) Log in to your edge node with root privileges. Install [docker](https://www.ibm.com/links?url=https%3A%2F%2Fdocs.docker.com%2Fget-docker%2F)
 and run below commands to add a new user and group and switch log in to new user.
+
 > Note: For edge node only Linux operating system is supported.
 
 ```markdown
@@ -31,8 +32,8 @@ su - ibm-workshop
 
 ```markdown
 export HZN_EXCHANGE_USER_AUTH=iamapikey:<api-key-generated-in-ieam-installation>
-export HZN_EXCHANGE_URL=<ieam-management-hub-url>/edge-exchange/v1  # <ieam-management-hub-url> is same as CLUSTER_URL, exported in IEAM deployment
-export HZN_FSS_CSSURL=<ieam-management-hub-url>/edge-css/   # <ieam-management-hub-url> is same as CLUSTER_URL, exported in IEAM installation
+export HZN_EXCHANGE_URL=<ieam-management-hub-ingress>/edge-exchange/v1  # <ieam-management-hub-ingress> is same as CLUSTER_URL, exported in IEAM deployment
+export HZN_FSS_CSSURL=<ieam-management-hub-ingress>/edge-css/   # <ieam-management-hub-ingress> is same as CLUSTER_URL, exported in IEAM installation
 export HZN_ORG_ID=sandbox-edge-workshop-ieam-cluster    # This should be same organization id you created while deploying IEAM hub
 ```
 

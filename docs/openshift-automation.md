@@ -1,6 +1,6 @@
 # OpenShift Classic Cluster - Automated Provisioning
 
-This project contains the terraform code to provision Red Hat OpenShift Classic cluster, Bare Metal Server, 
+This page contains the terraform and IBM schematics code to provision Red Hat OpenShift Classic cluster, Bare Metal Server, 
 Virtual Server, IBM Cloudant database, and IBM Event Streams.
 
 Below is the network architecture of the IBM Edge components produced by this project code.
@@ -29,7 +29,7 @@ The requirements are documented in the
 - [Configure access to IBM Cloud](https://ibm.github.io/cloud-enterprise-examples/iac/setup-environment#configure-access-to-ibm-cloud) for
   Terraform and the IBM Cloud CLI
 - [Install IBM Cloud Terraform Provider](https://ibm.github.io/cloud-enterprise-examples/iac/setup-environment#configure-access-to-ibm-cloud)
-- Install the tools such as:
+- Install the following tools:
   - [IBM Cloud Pak CLI (cloudctl) and OpenShift client CLI (oc)](https://www.ibm.com/support/knowledgecenter/SSFKVV_4.2/cli/cloudctl_oc_cli.html)
   - [docker](https://www.ibm.com/links?url=https%3A%2F%2Fdocs.docker.com%2Fget-docker%2F)
 

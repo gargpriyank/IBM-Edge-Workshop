@@ -17,7 +17,8 @@ After completion of this workshop, developers will be able to:
 - [Eurotech IoT Framework](eurotech-iot-framework.md)
 - [EveryWare Software Foundation](esf.md)
 - [Sample Manufacturing Edge App](sample-edge-app.md)
-- [Deploy Sample Edge Application](sample-edge-app-deploy.md)
+- [Develop & Publish Sample Edge Application](sample-edge-app-publish.md)
+- [Register Sample Edge Application With Node Policy](sample-edge-app-register.md)
 
 ## Next Step
 - [IBM Edge Admin Workshop](edge-workshop-admin.md)

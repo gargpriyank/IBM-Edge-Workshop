@@ -1,6 +1,6 @@
 # IBM Edge Application Manager (IEAM) 4.2 - Automated Installation
 
-This project contains the bash script to auomate the deployment of the IEAM 4.2 hub.
+This page contains the bash scripts code to automate the deployment of the IEAM 4.2 hub.
 
 ## Content
 
@@ -15,7 +15,7 @@ The requirements are documented in the
 - Have an IBM Cloud account with required privileges
 - [Install IBM Cloud CLI](https://ibm.github.io/cloud-enterprise-examples/iac/setup-environment#install-ibm-cloud-cli)
 - [Log in to IBM Cloud with the CLI](https://ibm.github.io/cloud-enterprise-examples/iac/setup-environment#login-to-ibm-cloud)
-- Install the tools such as:
+- Install the following tools:
   - [make](https://www.gnu.org/software/make/)
   - [IBM Cloud Pak CLI (cloudctl) and OpenShift client CLI (oc)](https://www.ibm.com/support/knowledgecenter/SSFKVV_4.2/cli/cloudctl_oc_cli.html)
   - [docker](https://www.ibm.com/links?url=https%3A%2F%2Fdocs.docker.com%2Fget-docker%2F)
