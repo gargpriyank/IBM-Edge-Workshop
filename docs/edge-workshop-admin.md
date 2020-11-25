@@ -13,7 +13,6 @@ admins will be able to:
 
 ## Content
 - [Edge Computing Regions](edge-regions.md)
-- [Edge Computing Scale](edge-scale.md)
 - [Reference Architecture - IBM Edge Application Manager for Devices](reference-architecture-devices.md)
 - [Reference Architecture - IBM Edge Application Manager for Clusters](reference-architecture-clusters.md)
 - [Edge Infra Services – IEAM and Management Hub](edge-infra-services.md)

@@ -11,7 +11,6 @@ After completion of this workshop, developers will be able to:
 - Access of IEAM hub URL to publish the edge application.
 
 ## Content
-- [Edge Platform – OCP, RHEL and CP4D](edge-platform.md)
 - [Edge Business Use Case](edge-usecase.md)
 - [Edge Workshop Manufacturing Use Case](edge-manufacturing-usecase.md)
 - [Eurotech IoT Framework](eurotech-iot-framework.md)
