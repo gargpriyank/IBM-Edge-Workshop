@@ -8,7 +8,7 @@ Streams that will be read by IBM Watson Stream Flows to save it into IBM Cloudan
 ## Content
 
 - [Prerequisites](#prerequisites)
-- [Develop the Sample Edge Application](#develop--publish-sample-edge-application)
+- [Develop the Sample Edge Application](#develop-the-sample-edge-application)
 - [Publish the Sample Edge Application](#publish-the-sample-edge-application)
 
 ## Prerequisites
