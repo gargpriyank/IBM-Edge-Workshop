@@ -54,4 +54,5 @@
 <img src="images/ibm-edge.png" />
 
 ## Next Step
+- [IBM Edge Developer Workshop](edge-workshop-developer.md)
 - [IBM Edge Admin Workshop](edge-workshop-admin.md)
