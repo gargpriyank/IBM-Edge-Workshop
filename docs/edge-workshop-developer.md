@@ -19,5 +19,5 @@ After completion of this workshop, developers will be able to:
 - [Develop & Publish Sample Edge Application](sample-edge-app-publish.md)
 - [Register Sample Edge Application With Node Policy](sample-edge-app-register.md)
 
-## Next Step
+## Optional Step
 - [IBM Edge Admin Workshop](edge-workshop-admin.md)

@@ -5,7 +5,7 @@ This workshop is intended for the Sandbox and Cloud Administrators who deploy an
 compute machines, clusters and edge services. After completion of this workshop,
 admins will be able to:
 - Deploy IEAM 4.2 on OpenShift Cluster with automated provisioning.
-- Manage lifecycle of edge services.
+- Manage life cycle of edge services.
 
 ## Prerequisites
 - Cloud Skills – Red Hat OpenShift, Kubernetes.
@@ -23,5 +23,5 @@ admins will be able to:
 - (Optional) [IBM Edge Application Manager (IEAM) 4.2 - Manual Installation](ieam42-installation.md)
 - [IBM Edge Application Manager (IEAM) 4.2 Agent - Installation](ieam42-agent-deploy.md)
 
-## Next Step
+## Optional Step
 - [IBM Edge Developer Workshop](edge-workshop-developer.md)
