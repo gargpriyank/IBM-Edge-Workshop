@@ -55,4 +55,5 @@
 
 ## Next Step
 - [IBM Edge Developer Workshop](edge-workshop-developer.md)
+<br> Or,
 - [IBM Edge Admin Workshop](edge-workshop-admin.md)
