@@ -21,5 +21,5 @@ and generic edge awareness for Applications.
 
 ## Content
 - [Edge Overview](docs/edge-overview.md)
-- [IBM Edge Admin Workshop](docs/edge-workshop-admin.md)
 - [IBM Edge Developer Workshop](docs/edge-workshop-developer.md)
+- [IBM Edge Admin Workshop](docs/edge-workshop-admin.md)
