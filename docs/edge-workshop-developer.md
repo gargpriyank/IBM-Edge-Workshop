@@ -18,6 +18,7 @@ After completion of this workshop, developers will be able to:
 ## Content
 
 - [IBM Edge Application Manager (IEAM) 4.2 Agent - Installation](ieam42-agent-deploy.md)
+- [Using Hello World Edge Service](helloworld-app.md)
 - [Edge Business Use Case](edge-usecase.md)
 - [Edge Workshop Manufacturing Use Case](edge-manufacturing-usecase.md)
 - [Eurotech IoT Framework](eurotech-iot-framework.md)

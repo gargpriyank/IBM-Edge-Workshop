@@ -61,7 +61,7 @@ docker ps
 6) Unregister your edge node which will also stop the helloworld service.
 
 ```markdown
-hzn unregister -f
+hzn unregister -Df
 ```
 
 ## Next Step
