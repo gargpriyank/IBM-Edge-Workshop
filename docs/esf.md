@@ -7,4 +7,5 @@ full control to modify the frequency of events generation.
 <img src="images/esf.png" />
 
 ## Next Step
+
 - [Sample Manufacturing Edge App](sample-edge-app.md)

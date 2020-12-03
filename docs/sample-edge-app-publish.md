@@ -216,4 +216,5 @@ make publish
 ```
 
 ## Next Step
+
 - [Register Sample Edge Application With Node Policy](sample-edge-app-register.md)

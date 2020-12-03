@@ -41,6 +41,7 @@ edge nodes to easily send and receive models and files to and from the managemen
 - Example edge services: Edge service examples that are useful when exploring IEAM and learning how to write your own services.
 
 ## Next Step
+
 - (Optional) [OpenShift Classic Cluster - Automated Provisioning](openshift-automation.md)
 - [IBM Edge Application Manager (IEAM) 4.2 - Automated Installation](ieam42-automation.md)
 <br> or,

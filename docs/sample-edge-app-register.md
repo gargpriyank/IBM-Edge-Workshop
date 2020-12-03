@@ -50,4 +50,5 @@ make register-node-policy
 ```
 
 ## Next Step
+
 - [IBM Edge Admin Workshop](edge-workshop-admin.md)

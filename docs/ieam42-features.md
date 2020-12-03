@@ -28,4 +28,5 @@
 - Scale with minimal CPU usage consumed.
 
 ## Next Step
+
 - [IBM Edge Application Manager (IEAM) 4.2 – Architecture](ieam42-architecture.md)

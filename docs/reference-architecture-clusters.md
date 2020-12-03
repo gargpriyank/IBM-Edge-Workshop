@@ -10,4 +10,5 @@
 <img src="images/reference-architecture_4.png" />
 
 ## Next Step
+
 - [Edge Infra Services – IEAM and Management Hub](edge-infra-services.md)
