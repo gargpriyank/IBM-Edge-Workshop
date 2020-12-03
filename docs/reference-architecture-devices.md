@@ -14,4 +14,5 @@
 <img src="images/reference-architecture_2.png" />
 
 ## Next Step
+
 - [Reference Architecture - IBM Edge Application Manager for Clusters](reference-architecture-clusters.md)

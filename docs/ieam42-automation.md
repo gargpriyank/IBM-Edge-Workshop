@@ -5,7 +5,7 @@ This page contains the bash commands to automate the deployment of the IEAM 4.2 
 ## Content
 
 - [Prerequisites](#prerequisites)
-- [Deploy IEAM 4.2 and extract edge agent files](#deploy-ieam-42-and-extract-edge-agent-files)
+- [Install IEAM 4.2 and extract edge agent files](#install-ieam-42-and-extract-edge-agent-files)
 
 ### Prerequisites
 
@@ -20,7 +20,7 @@ The requirements are documented in the
   - [IBM Cloud Pak CLI (cloudctl) and OpenShift client CLI (oc)](https://www.ibm.com/support/knowledgecenter/SSFKVV_4.2/cli/cloudctl_oc_cli.html)
   - [docker](https://www.ibm.com/links?url=https%3A%2F%2Fdocs.docker.com%2Fget-docker%2F)
 
-## Deploy IEAM 4.2 and extract edge agent files
+## Install IEAM 4.2 and extract edge agent files
 
 1) Log in to your local linux/mac box with admin privileges. 
 Retrieve and copy the [entitlement key](https://myibm.ibm.com/products-services/containerlibrary) and export the environment 
@@ -104,5 +104,6 @@ ls /usr/local/bin/agent-install.sh
 ls /usr/local/bin/agent-uninstall.sh
 ```
 
-## Next Step
-- [IBM Edge Application Manager (IEAM) 4.2 Agent - Installation](ieam42-agent-deploy.md)
+## Optional Step
+
+- [IBM Edge Developer Workshop](edge-workshop-developer.md)

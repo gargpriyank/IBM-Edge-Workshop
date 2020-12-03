@@ -13,4 +13,5 @@
 - The entire sandbox can be provisioned in IBM Cloud.
 
 ## Next Step
+
 - [Develop & Publish Sample Edge Application](sample-edge-app-publish.md)

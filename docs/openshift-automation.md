@@ -245,6 +245,7 @@ oc get pods -A
 ```
 
 ## Next Step
+
 - [IBM Edge Application Manager (IEAM) 4.2 - Automated Installation](ieam42-automation.md)
 <br> or,
 - [IBM Edge Application Manager (IEAM) 4.2 - Manual Installation](ieam42-installation.md)

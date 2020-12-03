@@ -19,4 +19,5 @@ enterprise-level analytics and dashboards. This region can be hosted in the clou
 <img src="images/edge-regions.png" />
 
 ## Next Step
+
 - [Reference Architecture - IBM Edge Application Manager for Devices](reference-architecture-devices.md)
