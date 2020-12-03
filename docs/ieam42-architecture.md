@@ -19,25 +19,16 @@ IEAM handles everything else.
 
 - Agbot: Agreement bot (agbot) instances are created centrally and are responsible for deploying workloads and machine learning models to IEAM edge
 nodes.
-
 - Exchange: The Exchange provides a REST API to all of the IEAM resources (patterns, policies, services, nodes, and so on) used by all the other
 components in IEAM.
-
 - UI Management console: The web UI used by IEAM administrators to view and manage the other components of IEAM.
-
 - MMS: The Model Management System (MMS) facilitates the storage, delivery, and security of models and files needed by edge services. This enables
 edge nodes to easily send and receive models and files to and from the management hub.
-
 - SDO: The Secure Device Onboarding (SDO) service enables SDO-enabled edge devices to be configured with zero touch.
-
 - Edge node: Any edge device, edge cluster, or edge gateway where edge computing takes place.
-
 - Edge cluster agent: The agent that is installed on edge clusters to enable node workload management by IEAM.
-
 - Edge device agent: The agent that is installed on edge devices to enable node workload management by IEAM.
-
 - ESS: The edge node part of MMS that makes AI models and files available to the edge services.
-
 - Example edge services: Edge service examples that are useful when exploring IEAM and learning how to write your own services.
 
 ## Next Step
