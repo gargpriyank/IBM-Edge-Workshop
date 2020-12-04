@@ -30,12 +30,12 @@
 
 The following best practices that help you design and develop edge services.
 
-- ![Cloud native programming model](best-practices-elaboration.md)
-- Service availability
-- Portability
-- Container orchestration
-- Externalize configuration parameters
-- Container size considerations
+- Cloud native programming model[...](best-practices-elaboration.md)
+- Service availability[...](best-practices-elaboration.md)
+- Portability[...](best-practices-elaboration.md)
+- Container orchestration[...](best-practices-elaboration.md)
+- Externalize configuration parameters[...](best-practices-elaboration.md)
+- Container size considerations[...](best-practices-elaboration.md)
 
 ## Why IBM Edge?
 
@@ -44,8 +44,6 @@ The following best practices that help you design and develop edge services.
 - Address security concerns
 - Move to autonomous management that's built for scale and variability and runs anywhere.
 - Administrators express an intent and autonomous management software Policy executes in line with the intent.
-
-<img src="images/edge-usecase.png" />
 
 ## Next Step
 

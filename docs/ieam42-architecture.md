@@ -15,7 +15,7 @@ on edge nodes fully autonomously. A Cloud installer installs and manages the IEA
 edge services to the management hub. Administrators define the deployment policies that control where edge services are deployed. 
 IEAM handles everything else.
 
-## Edge Components:
+## IEAM Components:
 
 - Agbot: Agreement bot (agbot) instances are created centrally and are responsible for deploying workloads and machine learning models to IEAM edge
 nodes.

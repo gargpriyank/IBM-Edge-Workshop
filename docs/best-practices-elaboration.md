@@ -27,3 +27,7 @@ The following best practices that help you design and develop edge services.
   dependencies so that these can be supplied and updated to values that are specific to the node to which your container is deployed.
 - Size considerations: Your service containers must be as small as possible so that the services can be deployed over potentially slow networks or
   to small edge devices.
+
+## Previous Step
+
+- [Edge Overview](edge-overview.md)
