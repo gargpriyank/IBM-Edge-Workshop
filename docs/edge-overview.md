@@ -14,29 +14,38 @@
 
 ## Why edge?
 
-- Most common reasons for deploying applications on the edge are related to security 
-  (early) and performance (low latency). Highly distributed applications like CDN have long used caching edges 
-  for serving content.
-- In edge computing data is analysed in the edge device itself, such as factory floors, warehouses, distribution centers, retail stores, 
-  transportation centers, etc. as compared to IOT that sends the data to cloud for analyses, that helps to eliminate the single point failure, 
-  reduce the latency and reduce the cost of data transmission.
+- Most common reasons for deploying applications on the edge are related to security and performance (low latency). 
+  Highly distributed applications like CDN have long used caching edges for serving content.
+- In edge computing data is inferenced on the edge as compared to IOT that sends the data to cloud for analyses, that helps to eliminate the 
+  single point failure, reduce the latency and reduce the cost of data transmission.
   
-## Considerations for Edge Application Design and Development
+## Considerations for Edge Service Design and Development
 
 - Manage your workloads across all clouds and on any number of devices.
 - Deploy applications to all edge locations reliably and seamlessly.
 - Maintain openness and flexibility to adopt to evolving needs.
 - Operate more securely and with confidence.
 
+## Best practices for developing edge services
+
+The following best practices that help you design and develop edge services.
+
+- ![Cloud native programming model](best-practices-elaboration.md)
+- Service availability
+- Portability
+- Container orchestration
+- Externalize configuration parameters
+- Container size considerations
+
 ## Why IBM Edge?
 
 - Manage the distribution of software at massive scale.
-- Leverage open-source technology.
-- Address security concerns.
+- Leverage open source technology
+- Address security concerns
 - Move to autonomous management that's built for scale and variability and runs anywhere.
 - Administrators express an intent and autonomous management software Policy executes in line with the intent.
 
-<img src="images/ibm-edge.png" />
+<img src="images/edge-usecase.png" />
 
 ## Next Step
 

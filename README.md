@@ -2,7 +2,7 @@
 
 ## Goals:
 
-- Get developers and administrators excited about Edge Computing.
+- Get developers and administrators understand the fundamentals of Edge Computing.
 - Capture the imagination of developers and administrators and show them how to do what they could not do before.
 
 ## Audiences
