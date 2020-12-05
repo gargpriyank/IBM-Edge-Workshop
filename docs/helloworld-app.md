@@ -21,13 +21,13 @@ export HZN_ORG_ID=sandbox-edge-workshop-ieam-cluster    # This should be same or
 hzn register --policy node.policy.json
 ```
 
-4) When the registration completes, use the following command to review the Node Policy:
+4) When the registration completes, use the following command to review the Node policy.
 
 ```markdown
 hzn policy list
 ```
 
-5) Validate the service container is running in `docker` on the edge node.
+5) Validate the helloworld service container is running in `docker` on the edge node.
 
 ```markdown
 docker ps
