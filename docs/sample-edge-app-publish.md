@@ -1,11 +1,11 @@
 # Develop & Publish Sample Edge Application
 
 This page covers the step by step guidance to develop and publish the Sample Edge Application. After completing the below steps, you will be able to:
-- Publish the simulated manufacturing application **esf-ieam** that generates the events such as buzzer, fan, light and temperature.
+- Publish the ESF emulator application **esf-ieam** that simulates the factory events such as buzzer, fan, light and temperature.
 - Publish the sample edge application **edge-app** that reads the generated events, aggregate it to produce new events and publish it to Event
-Streams that will be read by IBM Watson Stream Flows to save it into IBM CloudantDB.
+  Streams that will be read by IBM Watson Stream Flows to save it into IBM CloudantDB.
 
-## Content
+## Navigation
 
 - [Prerequisites](#prerequisites)
 - [Develop the Sample Edge Application](#develop-the-sample-edge-application)
@@ -18,6 +18,7 @@ Streams that will be read by IBM Watson Stream Flows to save it into IBM Cloudan
     - [make](https://www.gnu.org/software/make/)
     - [docker](https://www.ibm.com/links?url=https%3A%2F%2Fdocs.docker.com%2Fget-docker%2F)
 - Create a public repo in [docker hub](https://hub.docker.com/).
+- User **ibm-workshop** was created while installing the IEAM agent on the edge node.
 
 ## Develop the Sample Edge Application
 

@@ -1,4 +1,4 @@
-# Edge Business Use Case
+# Typical Edge Business Use Case
 
 The figure in below depicts the typical Edge use case. The left half shows the Edge side, where edge app monitors the data produced by all sort of
 devices. It then performs inferencing and publishes the data to cloud service like IBM Event Streams that is on the right half. Data is further
