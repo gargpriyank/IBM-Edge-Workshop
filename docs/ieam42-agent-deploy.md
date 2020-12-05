@@ -2,7 +2,7 @@
 
 This page contains the bash commands to automate the deployment of the IEAM 4.2 agent.
 
-## Content
+## Navigation
 
 - [Prerequisites](#prerequisites)
 - [Install IEAM 4.2 agent on edge node](#install-ieam-42-agent-on-the-edge-node)

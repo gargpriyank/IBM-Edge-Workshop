@@ -6,7 +6,7 @@ This page covers the step by step guidance to register and deploy the Sample Edg
 - Deploy the sample edge application **edge-app** that reads the generated events, aggregate it to produce new events and publish it to Event
 Streams that will be read by IBM Watson Stream Flows to save it into IBM CloudantDB.
 
-## Content
+## Navigation
 
 - [Prerequisites](#prerequisites)
 - [Register & Deploy the Sample Edge Application](#register--deploy-the-sample-edge-application)

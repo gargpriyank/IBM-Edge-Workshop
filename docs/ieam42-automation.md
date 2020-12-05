@@ -2,7 +2,7 @@
 
 This page contains the bash commands to automate the deployment of the IEAM 4.2 hub.
 
-## Content
+## Navigation
 
 - [Prerequisites](#prerequisites)
 - [Install IEAM 4.2 and extract edge agent files](#install-ieam-42-and-extract-edge-agent-files)

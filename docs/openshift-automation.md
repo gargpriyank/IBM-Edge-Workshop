@@ -7,7 +7,7 @@ Below is the network architecture of the IBM Edge components produced by this pr
 
 ![Network Architecture](images/network-architecture.png)
 
-## Content
+## Navigation
 
 - [Prerequisites](#prerequisites)
 - [How to use with Terraform](#how-to-use-with-terraform)
