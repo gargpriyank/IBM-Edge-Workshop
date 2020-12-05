@@ -24,6 +24,8 @@
     - Editor
     - Viewer
 
+<img src="images/ieam42.png" />
+
 ## Next Step
 
 - [IBM Edge Developer Workshop](edge-workshop-developer.md)
