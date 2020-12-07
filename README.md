@@ -3,7 +3,9 @@
 ## Goals:
 
 - Get developers and administrators understand the fundamentals of Edge Computing.
-- Simplify edge development approach at scale.
+- Onboard developers on edge application development. (Hands-On Lab)
+- Enhance developers experience by familiarize themselves with ESF emulated manufacturing edge application development. (Hands-On Lab)
+- Automate the IBM Edge infrastructure provisioning to bring administrators upto the speed (Hands-On Lab).
 
 ## Audiences
 
