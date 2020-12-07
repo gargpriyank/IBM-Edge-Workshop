@@ -35,4 +35,4 @@ Create a new diagram
 
 ## Next Step
 
-- [Reference Architecture - IBM Edge Application Manager for Devices](reference-architecture-devices.md)
+- [IBM Edge Application Manager (IEAM) - Reference Architecture for Devices](reference-architecture-devices.md)
