@@ -15,4 +15,4 @@
 
 ## Next Step
 
-- [IBM Edge Application Manager - Reference Architecture for Clusters](reference-architecture-clusters.md)
+- [IBM Edge Application Manager (IEAM) - Reference Architecture for Clusters](docs/reference-architecture-clusters.md)
