@@ -1,4 +1,4 @@
-# Using Hello World Edge Service
+# Register edge node and deploy sample Hello World edge service
 
 1) Get the required helloworld node policy file.
 
@@ -41,4 +41,4 @@ hzn unregister -Df
 
 ## Next Step
 
-- [Edge Business Use Case](edge-usecase.md)
+- [Edge Workshop Manufacturing Use Case](edge-manufacturing-usecase.md)

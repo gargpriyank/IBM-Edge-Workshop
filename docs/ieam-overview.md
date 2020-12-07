@@ -6,6 +6,14 @@ IEAM Installed on OpenShift cluster provides the edge computing features to mana
 from a management hub cluster to edge devices, cluster and remote instances of OpenShift Container Platform 
 or other Kubernetes-based clusters.
 
+## Why IBM Edge?
+
+- Manage the distribution of software at massive scale.
+- Leverage open source technology
+- Address security concerns
+- Move to autonomous management that's built for scale and variability and runs anywhere.
+- Administrators express an intent and autonomous management software Policy executes in line with the intent.
+
 ## IEAM Features
 
 - The IEAM management hub is Installed into an OpenShift Container platform and thus it inherits the all the inherent security mechanism 
@@ -23,10 +31,8 @@ or other Kubernetes-based clusters.
     - Editor
     - Viewer
 
-<img src="images/ieam42.png" />
+Create a new diagram
 
 ## Next Step
 
-- [IBM Edge Developer Workshop](edge-workshop-developer.md)
-<br> Or,
-- [IBM Edge Admin Workshop](edge-workshop-admin.md)
+- [Reference Architecture - IBM Edge Application Manager for Devices](reference-architecture-devices.md)

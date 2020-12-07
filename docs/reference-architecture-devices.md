@@ -1,4 +1,4 @@
-# Reference Architecture - IBM Edge Application Manager for Devices
+# IBM Edge Application Manager - Reference Architecture for Devices
 
 - Focus is on the outermost edge, the edge devices region.
 - This Reference Architecture is most optimal for use cases involving a large Smart Device farm with agents installed 
@@ -15,4 +15,4 @@
 
 ## Next Step
 
-- [Reference Architecture - IBM Edge Application Manager for Clusters](reference-architecture-clusters.md)
+- [IBM Edge Application Manager - Reference Architecture for Clusters](reference-architecture-clusters.md)

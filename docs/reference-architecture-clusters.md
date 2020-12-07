@@ -1,4 +1,4 @@
-# Reference Architecture - IBM Edge Application Manager for Clusters
+# IBM Edge Application Manager - Reference Architecture for Clusters
 
 - Focus is on edge server tier with higher compute need for edge data processing needed for advanced visualization 
   and AI analytics.
@@ -11,4 +11,6 @@
 
 ## Next Step
 
-- [Edge Infra Services – IEAM and Management Hub](edge-infra-services.md)
+- [IBM Edge Developer Workshop](edge-workshop-developer.md)
+  <br> Or,
+- [IBM Edge Admin Workshop](edge-workshop-admin.md)

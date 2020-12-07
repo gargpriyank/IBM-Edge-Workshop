@@ -37,14 +37,6 @@ The following best practices that help you design and develop edge services.
 - Externalize configuration parameters[...](best-practices-elaboration.md)
 - Container size considerations[...](best-practices-elaboration.md)
 
-## Why IBM Edge?
-
-- Manage the distribution of software at massive scale.
-- Leverage open source technology
-- Address security concerns
-- Move to autonomous management that's built for scale and variability and runs anywhere.
-- Administrators express an intent and autonomous management software Policy executes in line with the intent.
-
 ## Next Step
 
 - [IBM Edge Application Manager (IEAM) Overview](ieam-overview.md)

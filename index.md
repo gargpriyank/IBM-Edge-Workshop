@@ -35,5 +35,7 @@
 
 - [Edge Overview](docs/edge-overview.md)
 - [IBM Edge Application Manager (IEAM) Overview](docs/ieam-overview.md)
+- [Reference Architecture - IBM Edge Application Manager for Devices](docs/reference-architecture-devices.md)
+- [Reference Architecture - IBM Edge Application Manager for Clusters](docs/reference-architecture-clusters.md)
 - [IBM Edge Developer Workshop](docs/edge-workshop-developer.md)
 - [IBM Edge Admin Workshop](docs/edge-workshop-admin.md)

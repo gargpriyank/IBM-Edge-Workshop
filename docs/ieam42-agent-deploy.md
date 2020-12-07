@@ -2,6 +2,11 @@
 
 This page contains the bash commands to automate the deployment of the IEAM 4.2 agent.
 
+Create a new diagram
+A simple note on IEAM Agent
+Combine ESF and Eurotech
+Move the reference architectures
+
 ## Navigation
 
 - [Prerequisites](#prerequisites)

@@ -16,8 +16,6 @@ admins will be able to:
 ## Content
 
 - [Edge Computing Regions](edge-regions.md)
-- [Reference Architecture - IBM Edge Application Manager for Devices](reference-architecture-devices.md)
-- [Reference Architecture - IBM Edge Application Manager for Clusters](reference-architecture-clusters.md)
 - [Edge Infra Services – IEAM and Management Hub](edge-infra-services.md)
 - [IBM Edge Application Manager (IEAM) 4.2 - Features](ieam42-features.md)
 - [IBM Edge Application Manager (IEAM) 4.2 – Architecture](ieam42-architecture.md)

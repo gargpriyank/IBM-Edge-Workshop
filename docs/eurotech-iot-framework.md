@@ -2,6 +2,8 @@
 
 <img src="images/eurotech.png" />
 
+## EveryWare Software Foundation
+
 [Everyware Software Framework](https://www.eurotech.com/en/products/iot/iot-edge-framework/everyware-software-framework) (ESF) is an enterprise-ready 
 IoT Edge Framework distributed and supported by Eurotech. Based on Eclipse Kura, the open-source Java/OSGi middleware for IoT gateways, 
 ESF adds provisioning, advanced security, remote access, diagnostics monitoring. It supports ready-to-use field protocols including Modbus, 
@@ -11,6 +13,14 @@ ESF features full remote device management through its integration with Everywar
 
 <img src="images/eurotech-framework.png" />
 
+## EveryWare Software Foundation Dashboard
+
+The figure in below is the ESF dashboard running on edge node that emulates the sensor data on the factory floor of the manufacturing
+company. This includes the sensor data such as buzzer, fan, light and temperature and publish it to local MQTT.
+The events values are editable in the dashboard with full control to modify the frequency of events generation.
+
+<img src="images/esf.png" />
+
 ## Next Step
 
-- [EveryWare Software Foundation](esf.md)
+- [Develop & Publish Sample Edge Application](sample-edge-app-publish.md)

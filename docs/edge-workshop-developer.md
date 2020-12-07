@@ -17,15 +17,12 @@ After completion of this workshop, developers will be able to:
 
 ## Content
 
-- [IBM Edge Application Manager (IEAM) 4.2 Agent - Installation](ieam42-agent-deploy.md)
-- [Using Hello World Edge Service](helloworld-app.md)
-- [Edge Business Use Case](edge-usecase.md)
+- [Register edge node and deploy sample Hello World edge service](helloworld-app.md)
 - [Edge Workshop Manufacturing Use Case](edge-manufacturing-usecase.md)
-- [Eurotech IoT Framework](eurotech-iot-framework.md)
-- [EveryWare Software Foundation](esf.md)
-- [Sample Manufacturing Edge App](sample-edge-app.md)
-- [Develop & Publish Sample Edge Application](sample-edge-app-publish.md)
-- [Register Sample Edge Application With Node Policy](sample-edge-app-register.md)
+    - [Eurotech IoT Framework](eurotech-iot-framework.md)
+    - [Develop & Publish Sample Edge Application](sample-edge-app-publish.md)
+    - [Register Sample Edge Application With Node Policy](sample-edge-app-register.md)
+- [IBM Edge Application Manager (IEAM) 4.2 Agent - Installation](ieam42-agent-deploy.md)
 
 ## Optional Step
 
