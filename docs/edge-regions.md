@@ -20,4 +20,4 @@ enterprise-level analytics and dashboards. This region can be hosted in the clou
 
 ## Next Step
 
-- [Reference Architecture - IBM Edge Application Manager for Devices](reference-architecture-devices.md)
+- [Edge Infra Services – IEAM and Management Hub](edge-infra-services.md)
