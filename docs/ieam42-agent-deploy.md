@@ -2,10 +2,7 @@
 
 This page contains the bash commands to automate the deployment of the IEAM 4.2 agent.
 
-Create a new diagram
-A simple note on IEAM Agent
-Combine ESF and Eurotech
-Move the reference architectures
+![Network Architecture](images/network-architecture.png)
 
 ## Navigation
 
@@ -83,6 +80,6 @@ docker ps
 hzn unregister -Df
 ```
 
-## Next Step
+## Optional Step
 
-- [Edge Business Use Case](edge-usecase.md)
+- [IBM Edge Admin Workshop](edge-workshop-admin.md)

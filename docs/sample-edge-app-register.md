@@ -49,6 +49,6 @@ register-node-policy:
 make register-node-policy
 ```
 
-## Next Step
+## Optional Step
 
-- [IBM Edge Admin Workshop](edge-workshop-admin.md)
+- [IBM Edge Application Manager (IEAM) 4.2 Agent - Installation](ieam42-agent-deploy.md)
