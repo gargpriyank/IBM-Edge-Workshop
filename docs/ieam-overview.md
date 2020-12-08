@@ -31,7 +31,14 @@ or other Kubernetes-based clusters.
     - Editor
     - Viewer
 
-Create a new diagram
+![Network Architecture](images/ieam42.png)
+
+Following are the steps performed in above figure:
+
+- Edge service is published into IEAM.
+- IEAM agent on the edge node registers and makes an agreement with Agbot on the IEAM management hub.
+- IEAM agent deploys and runs the edge service container.
+- Edge service pulls the container image from the container registry such as docker registry.
 
 ## Next Step
 
