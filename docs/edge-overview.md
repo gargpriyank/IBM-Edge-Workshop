@@ -30,12 +30,12 @@
 
 The following best practices that help you design and develop edge services.
 
-- Cloud native programming model[...](best-practices-elaboration.md)
-- Service availability[...](best-practices-elaboration.md)
-- Portability[...](best-practices-elaboration.md)
-- Container orchestration[...](best-practices-elaboration.md)
-- Externalize configuration parameters[...](best-practices-elaboration.md)
-- Container size considerations[...](best-practices-elaboration.md)
+- Cloud native programming model[...more](best-practices-elaboration.md)
+- Service availability[...more](best-practices-elaboration.md)
+- Portability[...more](best-practices-elaboration.md)
+- Container orchestration[...more](best-practices-elaboration.md)
+- Externalize configuration parameters[...more](best-practices-elaboration.md)
+- Container size considerations[...more](best-practices-elaboration.md)
 
 ## Next Step
 
