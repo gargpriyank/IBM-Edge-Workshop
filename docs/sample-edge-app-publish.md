@@ -1,6 +1,6 @@
 # Develop & Publish Sample Edge Application
 
-## Introduction
+## Sample Edge Application Introduction
 
 - Mimics an edge manufacturing application running locally on-prem, receiving sensor data from the floor,
   processing it and taking a local action.
@@ -13,6 +13,8 @@
   in a Cloudant DB.
 - There is little change required to connect actual sensor devices to this demo rig via an IoT Gateway.
 - The entire sandbox can be provisioned in IBM Cloud.
+
+![Network Architecture](images/network-architecture.png)
 
 In below is the step by step guidance to develop and publish the Sample Edge Application. After completing the below steps, you will be able to:
 - Publish the ESF emulator application **esf-ieam** that simulates the factory events such as buzzer, fan, light and temperature.
