@@ -13,7 +13,8 @@ After completion of this workshop, developers will be able to:
 ## Prerequisites
 
 - Access of docker registry to push the edge application image.
-- Access of IEAM hub URL to publish the edge application.
+- Access of IEAM hub URL, User API Key and Organization Id to publish the edge application.
+- IEAM agent is installed on edge node.
 
 ## Content
 
