@@ -2,11 +2,12 @@
 
 This page contains the bash commands to automate the deployment of the IEAM 4.2 agent. As depicted in the figure in below, the script executes the 
 following steps sequentially:
-1) Publish the sample edge services such as helloworld, cpu2eventstreams, cpu and gps in multi-arch environments.
-2) Install the IEAM 4.2 agent on the edge node.
-3) Create an agreement in between IEAM 4.2 agent on the edge node and the agbot on the IEAM.
-4) Register the edge node with the pattern **pattern-ibm.helloworld**.
-5) Deploy the sample helloworld service.
+
+1. Publish the sample edge services such as helloworld, cpu2eventstreams, cpu and gps in multi-arch environments.
+2. Install the IEAM 4.2 agent on the edge node.
+3. Create an agreement in between IEAM 4.2 agent on the edge node and the agbot on the IEAM.
+4. Register the edge node with the pattern **pattern-ibm.helloworld**.
+5. Deploy the sample helloworld service.
 
 ![Network Architecture](images/network-architecture.png)
 
