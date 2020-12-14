@@ -117,7 +117,7 @@ sample file is available in **multizone** directory.
 ```markdown
 ...
 "template_repo": {
-    "url": "https://github.com/gargpriyank/iac-ibm-openshift-ieam"
+    "url": "https://github.com/gargpriyank/IBM-Edge-Workshop"
   },
   "template_data": [
     {
