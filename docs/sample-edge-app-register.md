@@ -2,7 +2,7 @@
 
 This page covers the step by step guidance to register and deploy the Sample Edge Application. After completing the below steps, you will be able to:
 - Register the edge node with node policy.
-- Deploy the simulated manufacturing application **esf-ieam** that generates the events such as buzzer, fan, light and temperature.
+- Deploy the emulated manufacturing application **esf-ieam** that generates the events such as buzzer, fan, light and temperature.
 - Deploy the sample edge application **edge-app** that reads the generated events, aggregate it to produce new events and publish it to Event
 Streams that will be read by IBM Watson Stream Flows to save it into IBM CloudantDB.
 

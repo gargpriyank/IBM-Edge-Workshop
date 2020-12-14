@@ -6,7 +6,7 @@
   processing it and taking a local action.
 - Running on IBM cloud bare metal and virtual edges in the workshop sandbox.
 - Packaged as a docker container. Deployed and managed by IBM Edge Application Manager on both edges.
-- The workshop uses Eurotech ESF framework to simulate and publish Industry 4.0 events (Temperature, Luminosity etc.).
+- The workshop uses Eurotech ESF framework to emulate and publish Industry 4.0 events (Temperature, Luminosity etc.).
   on an MQTT queue. The demo app reads events off MQTT and process data.
 - After processing sensor data on the edge, the sample app posts it on a KAFKA event stream.
 - In the Cloud Core instance of the workshop, the KAFKA topic is read via Watson Studio (CP4D) and data stored
@@ -17,7 +17,7 @@
 ![Network Architecture](images/network-architecture-esf.png)
 
 In below is the step by step guidance to develop and publish the Sample Edge Application. After completing the below steps, you will be able to:
-- Publish the ESF emulator application **esf-ieam** that simulates the factory events such as buzzer, fan, light and temperature.
+- Publish the ESF emulator application **esf-ieam** that emulates the factory events such as buzzer, fan, light and temperature.
 - Publish the sample edge application **edge-app** that reads the generated events, aggregate it to produce new events and publish it to Event
   Streams that will be read by IBM Watson Stream Flows to save it into IBM CloudantDB.
 
