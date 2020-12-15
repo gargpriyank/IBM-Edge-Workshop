@@ -26,7 +26,7 @@ following steps sequentially:
 
 ## Install IEAM 4.2 agent on the edge node
 
-1) Log in to your edge node using `bash` with root privileges. 
+1) Log in to your edge node using `bash` with root privileges.
    Install [docker](https://www.ibm.com/links?url=https%3A%2F%2Fdocs.docker.com%2Fget-docker%2F)
    and run below commands to add a new user and group and switch log in to new user.
 
@@ -60,7 +60,7 @@ cp <your_home_dir>/workspace /home/ibm-workshop/workspace   # <your_home_dir> is
 
 4) Execute shell script `agent-install.sh` as in below. This will:
     - Publish the sample edge services such as helloworld, cpu2eventstreams, cpu and gps in multi-arch environments.
-    - Install the IEAM agent.
+    - Install the IEAM agent and `hzn` CLI.
     - Create an agreement in between edge agent on the edge node and the agbot on the IEAM.
     - Register the edge node with the pattern **pattern-ibm.helloworld**.
     - Deploy the sample helloworld service.
