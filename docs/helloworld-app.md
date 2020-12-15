@@ -1,9 +1,11 @@
+# Register edge node and deploy sample Hello World edge service
+
 ## Prerequisites
 
 - IEAM agent and `hzn` CLI are installed on the edge node.
-- **helloworld** service has already been published into IEAM.
+- Hello World edge service has already been published into IEAM.
 
-# Register edge node and deploy sample Hello World edge service
+## Steps
 
 1) Log in to your edge node using `bash` with the user id `ibm-workshop`. Get the required helloworld node policy file.
 
