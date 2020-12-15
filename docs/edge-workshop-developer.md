@@ -14,7 +14,6 @@ After completion of this workshop, developers will be able to:
 
 - Access of docker registry to push the edge application image.
 - Access of IEAM hub URL, User API Key and Organization Id to publish and register the edge service.
-- IEAM agent is installed on edge node.
 
 ## Content
 
