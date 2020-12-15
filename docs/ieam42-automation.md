@@ -30,7 +30,7 @@ variable `IBM_CP_ENTITLEMENT_KEY`.
 export IBM_CP_ENTITLEMENT_KEY=<Your_IBM_Cloud_Pak_Entitlement_Key>
 ```
 
-2) Create `workspace` directory in your local linux/mac box. Download **IBM-Edge-Workshop** project code.
+2) (If not done in the previous step) Create `workspace` directory in your local linux/mac box. Download **IBM-Edge-Workshop** project code.
 
 ```markdown
 mkdir <your_home_dir>/workspace

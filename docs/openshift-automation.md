@@ -35,6 +35,16 @@ The requirements are documented in the
 
 > The IBM Cloud Terraform provider must be version 1.8.0 or later. This example is using Terraform version 0.12.0.
 
+Create `workspace` directory in your local linux/mac box. Download **ieam42-automation** project code.
+
+```markdown
+mkdir <your_home_dir>/workspace
+cd <your_home_dir>/workspace
+git clone https://github.com/IBM/ieam42-automation.git
+cd ieam42-automation
+chmod +x script/*.sh
+```
+
 Executing these commands you are validating part of these requirements:
 
 ```markdown
