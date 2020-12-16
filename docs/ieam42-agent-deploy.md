@@ -59,11 +59,11 @@ cp <your_home_dir>/workspace /home/ibm-workshop/workspace   # <your_home_dir> is
 ```
 
 4) Execute shell script `agent-install.sh` as in below. This will:
-    - Publish the sample edge services such as helloworld, cpu2eventstreams, cpu and gps in multi-arch environments.
-    - Install the IEAM agent and `hzn` CLI.
-    - Create an agreement in between edge agent on the edge node and the agbot on the IEAM.
-    - Register the edge node with the pattern **pattern-ibm.helloworld**.
-    - Deploy the sample helloworld service.
+    * Publish the sample edge services such as helloworld, cpu2eventstreams, cpu and gps in multi-arch environments.
+    * Install the IEAM agent and `hzn` CLI.
+    * Create an agreement in between edge agent on the edge node and the agbot on the IEAM.
+    * Register the edge node with the pattern **pattern-ibm.helloworld**.
+    * Deploy the sample helloworld service.
 
 ```markdown
 sudo -s -E ./agent-install.sh -i 'css:' -p IBM/pattern-ibm.helloworld -w '*' -T 120
