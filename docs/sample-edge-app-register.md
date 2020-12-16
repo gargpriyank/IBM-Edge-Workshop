@@ -17,37 +17,37 @@ Streams that will be read by IBM Watson Stream Flows to save it into IBM Cloudan
 
 ## Register & Deploy the Sample Edge Application
 
-1) Copy and paste the below content in `edge-app/userinput.json` file.
+1. Copy and paste the below content in `edge-app/userinput.json` file.
 
-```markdown
-{
-  "services": [
+    ```markdown
     {
-      "org": "$HZN_ORG_ID",
-      "url": "edge-app",
-      "variables": {
-        "EVENTSTREAMS_TOPIC_NAME": "$EVENTSTREAMS_TOPIC_NAME",
-        "EVENTSTREAMS_BROKER_URL": "$EVENTSTREAMS_BROKER_URL",
-        "EVENTSTREAMS_API_KEY": "$EVENTSTREAMS_API_KEY"
-      }
+      "services": [
+        {
+          "org": "$HZN_ORG_ID",
+          "url": "edge-app",
+          "variables": {
+            "EVENTSTREAMS_TOPIC_NAME": "$EVENTSTREAMS_TOPIC_NAME",
+            "EVENTSTREAMS_BROKER_URL": "$EVENTSTREAMS_BROKER_URL",
+            "EVENTSTREAMS_API_KEY": "$EVENTSTREAMS_API_KEY"
+          }
+        }
+      ]
     }
-  ]
-}
-```
+    ```
 
-2) Look at the content in below. Copy and paste it into `Makefile` to register and deploy the sample edge and esf services by paasing `userinput.json`
+2. Look at the content in below. Copy and paste it into `Makefile` to register and deploy the sample edge and esf services by paasing `userinput.json`
 file to set the IBM Event Streams variables used in sample edge service.
 
-```markdown
-register-node-policy:
-	cd edge-app && hzn register --policy=horizon/node_policy.json -s edge-app --serviceorg $HZN_ORG_ID -f userinput.json
-```
+    ```markdown
+    register-node-policy:
+        cd edge-app && hzn register --policy=horizon/node_policy.json -s edge-app --serviceorg $HZN_ORG_ID -f userinput.json
+    ```
 
-3) Run the below command and that will deploy the sample edge and esf services.
+3. Run the below command and that will deploy the sample edge and esf services.
    
-```markdown
-make register-node-policy
-```
+    ```markdown
+    make register-node-policy
+    ```
 
 ## Optional Step
 
