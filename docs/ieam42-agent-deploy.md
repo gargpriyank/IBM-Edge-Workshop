@@ -26,6 +26,8 @@ following steps sequentially:
 
 ## Install IEAM 4.2 agent on the edge node
 
+Below are the steps to install IEAM 4.2 agent on the edge node:
+
 1. Log in to your edge node using `bash` with root privileges.
    Install [docker](https://www.ibm.com/links?url=https%3A%2F%2Fdocs.docker.com%2Fget-docker%2F)
    and run below commands to add a new user and group and switch log in to new user.
