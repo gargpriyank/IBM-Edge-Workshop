@@ -65,27 +65,27 @@ following steps sequentially:
     4. Register the edge node with the pattern **pattern-ibm.helloworld**.
     5. Deploy the sample helloworld service.
 
-```markdown
-sudo -s -E ./agent-install.sh -i 'css:' -p IBM/pattern-ibm.helloworld -w '*' -T 120
-```
+    ```markdown
+    sudo -s -E ./agent-install.sh -i 'css:' -p IBM/pattern-ibm.helloworld -w '*' -T 120
+    ```
 
 5. Validate the helloworld service container is running in `docker` on the edge node.
 
-```markdown
-docker ps
-```
+    ```markdown
+    docker ps
+    ```
 
 6. (Optional) Uninstall IEAM agent from your edge node that was installed in Step 4.
 
-```markdown
-./agent-uninstall.sh -u $HZN_EXCHANGE_USER_AUTH -d
-```
+    ```markdown
+    ./agent-uninstall.sh -u $HZN_EXCHANGE_USER_AUTH -d
+    ```
 
 7. (Optional) Unregister your edge node that was register in Step 4. This will also stop the helloworld service.
 
-```markdown
-hzn unregister -Df
-```
+    ```markdown
+    hzn unregister -Df
+    ```
 
 ## Optional Step
 
