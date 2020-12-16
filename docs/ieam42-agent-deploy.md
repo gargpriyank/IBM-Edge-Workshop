@@ -30,7 +30,7 @@ following steps sequentially:
    Install [docker](https://www.ibm.com/links?url=https%3A%2F%2Fdocs.docker.com%2Fget-docker%2F)
    and run below commands to add a new user and group and switch log in to new user.
 
-> Note: For edge node only Linux operating system is supported.
+    > Note: For edge node only Linux operating system is supported.
 
     ```markdown
     useradd -s /bin/bash -m -d /home/ibm-workshop -G sudo ibm-workshop  # You are free to choose any user name and group
