@@ -38,7 +38,8 @@ In below is the step by step guidance to develop and publish the Sample Edge App
 
 ## Develop the Sample Edge Application
 
-1. Log in to your edge node with the user id **ibm-workshop** created during IEAM agent deployment. Pull the sample Github code.
+1. Log in to your edge node with the user id **ibm-workshop** created during IEAM agent deployment. Pull the sample Github code. Create the 
+   horizon private signing key.
 
     > Note: For edge node only Linux operating system is supported.
 
@@ -47,6 +48,7 @@ In below is the step by step guidance to develop and publish the Sample Edge App
     git clone https://github.com/gargpriyank/edge-app-skeleton.git
     mv edge-app-skeleton sample-edge-app
     cd sample-edge-app
+    hzn key create IBM <your_email_id>
     ```
 
 2. Look at the below sample code. **HZN_ORG_ID** is the IEAM organization id where the edge service will be published. **DOCKER_IMAGE_BASE** is your
