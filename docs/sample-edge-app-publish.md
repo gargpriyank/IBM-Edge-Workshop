@@ -40,7 +40,7 @@ In below is the step by step guidance to develop and publish the Sample Edge App
 
 1. Log in to your edge node with the user id **ibm-workshop** created during IEAM agent deployment. Pull the sample Github code.
 
-> Note: For edge node only Linux operating system is supported.
+  > Note: For edge node only Linux operating system is supported.
 
   ```markdown
   cd /home/ibm-workshop/workspace
