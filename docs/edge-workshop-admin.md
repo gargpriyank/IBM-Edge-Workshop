@@ -16,7 +16,7 @@ admins will be able to:
 ## Content
 
 - [Edge Computing Regions](edge-regions.md)
-- [Edge Infra Services – IEAM and Management Hub](edge-infra-services.md)
+- [IBM Edge Infra Services](edge-infra-services.md)
 - [IEAM 4.2 Features](ieam42-features.md)
 - [IEAM 4.2 – Architecture](ieam42-architecture.md)
 - (Optional) [OpenShift Classic Cluster - Automated Provisioning](openshift-automation.md)

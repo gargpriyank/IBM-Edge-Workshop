@@ -33,7 +33,7 @@ edge nodes to easily send and receive models and files to and from the managemen
 
 ## Next Step
 
-- (Optional) [OpenShift Classic Cluster Automated Provisioning](openshift-automation.md)
+- (Optional) [Provision a Red Hat OpenShift Classic Cluster](openshift-automation.md)
 - [IEAM 4.2 Automated Installation](ieam42-automation.md)
 <br> or,
 - [IEAM 4.2 Manual Installation](ieam42-installation.md)

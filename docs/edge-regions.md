@@ -20,4 +20,4 @@ enterprise-level analytics and dashboards. This region can be hosted in the clou
 
 ## Next Step
 
-- [Edge Infra Services – IEAM and Management Hub](edge-infra-services.md)
+- [IBM Edge Infra Services](edge-infra-services.md)

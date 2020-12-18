@@ -1,4 +1,4 @@
-# Edge Infra Services – IEAM and Management Hub
+# IBM Edge Infra Services
 
 - Deploy and manage critical workloads on edge nodes securely and reliably to hundreds of remote locations 
   from a central location.
