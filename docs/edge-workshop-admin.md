@@ -19,7 +19,7 @@ admins will be able to:
 - [IBM Edge Infra Services](edge-infra-services.md)
 - [IEAM 4.2 Features](ieam42-features.md)
 - [IEAM 4.2 – Architecture](ieam42-architecture.md)
-- (Optional) [OpenShift Classic Cluster - Automated Provisioning](openshift-automation.md)
+- (Optional) [Provision a Red Hat OpenShift Classic Cluster](openshift-automation.md)
 - [IEAM 4.2 Automated Installation](ieam42-automation.md)
 - (Optional) [IEAM 4.2 Manual Installation](ieam42-installation.md)
 
