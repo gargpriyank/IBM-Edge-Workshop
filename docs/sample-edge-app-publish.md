@@ -5,7 +5,7 @@
 - Mimics an edge manufacturing application running locally on-prem, receiving sensor data from the floor,
   processing it and taking a local action.
 - Running on IBM cloud bare metal and virtual edges in the workshop sandbox.
-- Packaged as a docker container. Deployed and managed by IBM Edge Application Manager on both edges.
+- Packaged as a docker container. Deployed and managed by IEAM  on both edges.
 - The workshop uses Eurotech ESF framework to emulate and publish Industry 4.0 events (Temperature, Luminosity etc.).
   on an MQTT queue. The demo app reads events off MQTT and process data.
 - After processing sensor data on the edge, the sample app posts it on a KAFKA event stream.

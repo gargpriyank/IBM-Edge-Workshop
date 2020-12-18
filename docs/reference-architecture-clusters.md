@@ -1,4 +1,4 @@
-# IBM Edge Application Manager - Reference Architecture for Clusters
+# IEAM  Reference Architecture for Clusters
 
 - Focus is on edge server tier with higher compute need for edge data processing needed for advanced visualization 
   and AI analytics.

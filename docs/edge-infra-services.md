@@ -11,4 +11,4 @@
 
 ## Next Step
 
-- [IBM Edge Application Manager (IEAM) 4.2 - Features](ieam42-features.md)
+- [IEAM 4.2 - Features](ieam42-features.md)

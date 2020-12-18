@@ -1,4 +1,4 @@
-# IBM Edge Application Manager (IEAM) 4.2 Agent - Installation
+# IEAM 4.2 Agent Installation
 
 This page contains the bash commands to automate the deployment of the IEAM 4.2 agent. As depicted in the figure in below, the script executes the 
 following steps sequentially:

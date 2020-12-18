@@ -22,7 +22,7 @@ After completion of this workshop, developers will be able to:
     - [Eurotech IoT Framework](eurotech-iot-framework.md)
     - [Develop & Publish Sample Edge Application](sample-edge-app-publish.md)
     - [Register Sample Edge Application With Node Policy](sample-edge-app-register.md)
-- [IBM Edge Application Manager (IEAM) 4.2 Agent - Installation](ieam42-agent-deploy.md)
+- [IEAM 4.2 Agent Installation](ieam42-agent-deploy.md)
 
 ## Optional Step
 

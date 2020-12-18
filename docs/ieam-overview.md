@@ -42,4 +42,4 @@ Following are the steps performed in above figure:
 
 ## Next Step
 
-- [IBM Edge Application Manager (IEAM) - Reference Architecture for Devices](reference-architecture-devices.md)
+- [IEAM - Reference Architecture for Devices](reference-architecture-devices.md)

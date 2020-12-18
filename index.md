@@ -16,9 +16,9 @@
 
 ## Sandbox Roles
 
-- Sandbox Administrator – Provision OpenShift cluster and install IBM Edge Application Manager (IEAM).
+- Sandbox Administrator – Provision OpenShift cluster and install IEAM.
 - Node Administrator – Deploy and manage workloads on the edge node.
-- Node Owner – Register the edge node with IBM Edge Application Manager (IEAM).
+- Node Owner – Register the edge node with IEAM.
 - Developer - Develop and publish service.
 
 > Note: All these roles can be fulfilled by a single person, if needed.
@@ -35,7 +35,7 @@
 
 - [Edge Overview](docs/edge-overview.md)
 - [IBM Edge Application Manager (IEAM) Overview](docs/ieam-overview.md)
-- [IBM Edge Application Manager (IEAM) - Reference Architecture for Devices](docs/reference-architecture-devices.md)
-- [IBM Edge Application Manager (IEAM) - Reference Architecture for Clusters](docs/reference-architecture-clusters.md)
+- [IEAM Reference Architecture for Devices](docs/reference-architecture-devices.md)
+- [IEAM Reference Architecture for Clusters](docs/reference-architecture-clusters.md)
 - [IBM Edge Developer Workshop](docs/edge-workshop-developer.md)
 - [IBM Edge Admin Workshop](docs/edge-workshop-admin.md)

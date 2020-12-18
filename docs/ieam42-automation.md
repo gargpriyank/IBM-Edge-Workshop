@@ -1,4 +1,4 @@
-# IBM Edge Application Manager (IEAM) 4.2 - Automated Installation
+# IEAM 4.2 Automated Installation
 
 This page contains the bash commands to automate the deployment of the IEAM 4.2 hub.
 
@@ -53,7 +53,7 @@ or **Completed** status.
     oc get pods -n ibm-common-services
     ```
 
-5. Download the IBM Edge Application Manager 4.2 Agent package 
+5. Download the IEAM  4.2 Agent package 
 from [IBM Passport Advantage](https://www.ibm.com/support/knowledgecenter/SSFKVV_4.2/hub/part_numbers.html?view=kc) and save it in the directory 
 `<your_home_dir/workspace`. Export the environment variable `IEAM_PACKAGE_FILE_NAME` with the downloaded file name 
 and execute the shell script `install_hzn_cli.sh`. This will install the horizon CLI.

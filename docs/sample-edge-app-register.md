@@ -51,4 +51,4 @@ file to set the IBM Event Streams variables used in sample edge service.
 
 ## Optional Step
 
-- [IBM Edge Application Manager (IEAM) 4.2 Agent - Installation](ieam42-agent-deploy.md)
+- [IEAM 4.2 Agent - Installation](ieam42-agent-deploy.md)

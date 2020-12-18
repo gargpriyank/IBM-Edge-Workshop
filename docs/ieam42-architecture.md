@@ -1,4 +1,4 @@
-# IBM Edge Application Manager (IEAM) 4.2 – Architecture
+# IEAM 4.2 – Architecture
 
 The goal of edge computing is to harness the disciplines that have been created for hybrid cloud computing to support remote operations of edge
 computing facilities. IEAM is designed for that purpose. 
@@ -33,7 +33,7 @@ edge nodes to easily send and receive models and files to and from the managemen
 
 ## Next Step
 
-- (Optional) [OpenShift Classic Cluster - Automated Provisioning](openshift-automation.md)
-- [IBM Edge Application Manager (IEAM) 4.2 - Automated Installation](ieam42-automation.md)
+- (Optional) [OpenShift Classic Cluster Automated Provisioning](openshift-automation.md)
+- [IEAM 4.2 Automated Installation](ieam42-automation.md)
 <br> or,
-- [IBM Edge Application Manager (IEAM) 4.2 - Manual Installation](ieam42-installation.md)
+- [IEAM 4.2 Manual Installation](ieam42-installation.md)
