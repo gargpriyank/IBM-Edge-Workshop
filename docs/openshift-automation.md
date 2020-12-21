@@ -191,7 +191,7 @@ Schematics delivers the Terraform as a Service. Below are the steps to create an
     ibmcloud sl vlan list -d <zone_name>
     ```
 
-3. Execute the below Schematics commands.
+3. Execute the below Schematics commands to create the plan and execute it. Set the api key variable `ibmcloud_api_key` before creating the plan.
 
     ```markdown
     # Create workspace:

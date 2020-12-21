@@ -14,7 +14,7 @@
   },
   "template_data": [
     {
-      "folder": ".",
+      "folder": "iac",
       "type": "terraform_v0.12",
       "variablestore": [
         {
