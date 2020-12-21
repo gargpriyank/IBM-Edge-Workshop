@@ -162,7 +162,6 @@
           "value": "536870912",
           "type": "number"
         },
-        ,
         {
           "name": "bm_hostname",
           "value": "sandbox-edge-workshop-bm",
