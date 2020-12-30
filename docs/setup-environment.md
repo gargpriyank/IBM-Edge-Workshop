@@ -2,16 +2,13 @@
 
 To be able to execute and complete the instructions in this page, make sure you have an **IBM Cloud account**: if you don't have one yet, you can [create a Lite account](https://cloud.ibm.com/docs/overview?topic=overview-quickstart_lite#prereqs-lite) for free.
 
-</InlineNotification>
-
 ## Install IBM Cloud CLI
 
 If you already have installed and setup the IBM Cloud CLI you may skip this section and go straight to install infrastructure [IBM Cloud CLI Plugins](#ibm-cloud-cli-plugins).
 
 In this pattern you will see `ibmcloud` CLI in most of the examples and instructions. This table provides simplified instructions to install `ibmcloud` CLI on different platforms, for more details, see the [cli installation instructions](https://cloud.ibm.com/docs/cli?topic=cloud-cli-install-ibmcloud-cli).
 
-<Tabs>
-<Tab label="Linux">
+### Linux
 
 The following one-liner script works on Linux to install the latest version of `ibmcloud`:
 
@@ -21,9 +18,7 @@ curl -fsSL https://clis.cloud.ibm.com/install/linux | sh
 
 Or, you can download the latest version of the Installer for Linux from the [IBM Cloud CLI Releases](https://github.com/IBM-Cloud/ibm-cloud-cli-release/releases/) page, extract the package and run the `install` script.
 
-</Tab>
-
-<Tab label="Mac OS X">
+### Mac OS X
 
 If you have [brew](https://brew.sh) installed, you can install terraform executing the following command.
 
@@ -46,9 +41,7 @@ curl -fsSL https://clis.cloud.ibm.com/install/osx | sh
 
 Or, download the latest version of the Installer for Mac OS X from the [IBM Cloud CLI Releases](https://github.com/IBM-Cloud/ibm-cloud-cli-release/releases/) page, execute it and follow the instructions.
 
-</Tab>
-
-<Tab label="Windows">
+### Windows
 
 Download the latest version of the Installer for Windows from the [IBM Cloud CLI Releases](https://github.com/IBM-Cloud/ibm-cloud-cli-release/releases/) page, execute it and follow the instructions.
 
@@ -57,9 +50,6 @@ Or, if you prefer to install with PowerShell, execute the following command:
 ```powershell
 iex(New-Object Net.WebClient).DownloadString('https://clis.cloud.ibm.com/install/powershell')
 ```
-
-</Tab>
-</Tabs>
 
 Verify `ibmcloud` was correctly installed by executing: `ibmcloud version`, you should see something like this:
 
@@ -106,13 +96,10 @@ ibmcloud target -g RESOURCE_GROUP_NAME
 
 The `target` sub-command can be used also to select a new account ID or region.
 
-<InlineNotification>
 
 ###### `ibmcloud` cheatsheet
 
 To know more about the IBM Cloud CLI download this [quick reference](https://github.com/ibm-cloud-docs/cli/raw/master/IBM%20Cloud%20CLI%20quick%20reference.pdf) sheet. Also check the [IBM Cloud CLI documentation](https://cloud.ibm.com/docs/cli?topic=cloud-cli-getting-started).
-
-</InlineNotification>
 
 ## Install Terraform
 
@@ -120,12 +107,11 @@ To know more about the IBM Cloud CLI download this [quick reference](https://git
 
 Terraform is distributed as a single binary for different platforms and architectures. To install Terraform follow the instructions below to install it from Terraform downloads or from the command prompt from your platform.
 
-<Tabs>
-<Tab label="Manual installation">
+### Manual installation
 
 Download the latest version for your operative system from the [Download Terraform](https://www.terraform.io/downloads.html) page, then unzip it and move it to a directory included in your system's PATH environment variable.
-</Tab>
-<Tab label="Linux">
+
+### Linux
 
 The following one-liner script works on Linux and Mac OS X to install Terraform **v0.12.24** for **amd64** architecture.
 
@@ -137,9 +123,7 @@ tar -xf - && \
 chmod +x terraform
 ```
 
-</Tab>
-
-<Tab label="Mac OS X">
+### Mac OS X
 
 If you have [brew](https://brew.sh) installed, you can install terraform executing the following command.
 
@@ -149,9 +133,7 @@ brew install terraform
 
 If not, you can follow the same instructions for Linux.
 
-</Tab>
-
-<Tab label="Windows">
+### Windows
 
 If you have [Chocolatey](https://chocolatey.org/) installed, you can install terraform executing the following command.
 
@@ -174,8 +156,6 @@ Terraform v0.12.24
 ## Configure access to IBM Cloud
 
 With Terraform you can create, manage and update almost any infrastructure resource such as virtual servers, virtual routers, load balancers, containers, kubernetes clusters, and more. All these infrastructure components are represented as a **resource** in Terraform. All these resources are defined in a **Terraform provider** which is responsible to interact and expose the resources using the cloud service API.
-
-<InlineNotification>
 
 ###### Where can I find an overview of available resources?
 
@@ -201,10 +181,6 @@ Now we need to setup the IBM Cloud credentials on the system to let the IBM Clou
 The credentials that you need depend on the type of resource that you want to provision. For example, to provision classic infrastructure resources, you must provide your IBM Cloud classic infrastructure user name and API key. To provision VPC infrastructure generation 2, you need an IBM Cloud API key. For more information about what credentials you need for a specific IBM Cloud resource, see [Retrieving required credentials for your resources](https://github.com/IBM-Cloud/terraform-provider-ibm/releases).
 
 In this documentation we are going to use Gen 2 resources so we'll only work with the IBM Cloud API key.
-
-</InlineNotification>
-
-<InlineNotification>
 
 ###### Using Classic Infrastructure?
 
