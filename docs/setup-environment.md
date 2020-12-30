@@ -160,23 +160,19 @@ chmod +x ~/.terraform.d/plugins/terraform-provider-ibm_*
 
 Now we need to setup the IBM Cloud credentials on the system to let the IBM Cloud provider to talk the IBM Cloud REST API.
 
-## What credentials do I need?
+### What credentials do I need?
 
 The credentials that you need depend on the type of resource that you want to provision. For example, to provision classic infrastructure resources, you must provide your IBM Cloud classic infrastructure user name and API key. To provision VPC infrastructure generation 2, you need an IBM Cloud API key. For more information about what credentials you need for a specific IBM Cloud resource, see [Retrieving required credentials for your resources](https://github.com/IBM-Cloud/terraform-provider-ibm/releases).
 
 In this documentation we are going to use Gen 2 resources so we'll only work with the IBM Cloud API key.
 
-## Using Classic Infrastructure?
+### Using Classic Infrastructure?
 
 To use the Classic Infrastructure or the VPC Infrastructure Gen 1 you'll need to include in the credentials the IAAS Classic username and API key. These can be obtained at the IBM Cloud web console. Go to **Manage** > **Access (IAM)** > **Users**, find and click on your user. 
-<br /> 
 
 ![iam user option](images/iamusers.png "iam option for users") 
 
-<br />
 Under the section **API keys** you'll find your key(s) or generate them by clicking on `Create classic infrastructure key` button. The **username** is the email address you use to login to the IBM Cloud console.
-
-<br /> 
 
 ![classic-api-key](images/apikeys.png "classic api keys")
 <br /> 
@@ -216,7 +212,7 @@ Or by using jq:
 export IC_API_KEY=$(jq -r .apikey terraform_key.json)
 ```
 
-> Important
+### Important
 
 The IBM Cloud credentials can also be set in Terraform input variables.
 
